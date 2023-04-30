@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Pantheon-Elite</title>
+    <title>PantheonElite</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -11,6 +11,7 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <link href="css/styles.css" rel="stylesheet" />
+    
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +21,7 @@
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -41,78 +43,117 @@
             height: 100vh;
         }
 
-        .scroll-down {
-            position: absolute;
-            bottom: 15px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+.float-whatsapp{
+	width:60px;
+	height:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+}
+.float-telegram{
+	width:60px;
+	height:60px;
+	background-color:#0088cc;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+}
     </style>
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
-    <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-dark sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-lg-0">
-                <a href="index.html" class="navbar-brand d-lg-none">
-                    <h1 class="fw-bold m-0 text-white">Pantheon-Elite</h1>
-                </a>
-                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav text-white">
-                        <a href="index.html" class="nav-item nav-link text-white">Home</a>
-                        <a href="dienstleistungen.html" class="nav-item nav-link text-white">Services</a>
-                        <a href="about.html" class="nav-item nav-link text-white">Über Uns</a>
-                        <a href="en/index.html" class="nav-item nav-link text-white">EN</a>
-                        <a href="ru/index.html" class="nav-item nav-link text-white">RU</a>
-                    </div>
-                    <div class="ms-auto d-none d-lg-block">
-                        <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-3">Kontakt</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Navbar End -->
+
+
 
     <!-- Carousel Start -->
+
+
 <div class="fullscreen position-relative">
-    <img class="w-100 h-100 object-fit-cover" src="img/carousel-2.jpg" alt="Image">
+    <img src="img/carousel-2.jpg" alt="Dubai" style="float:left;width:100vw;height:100vh;object-fit:cover;">
     <div class="carousel-caption">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-lg-7 text-end">
                     <p class="fs-4 text-white animated slideInLeft"><strong>Pantheon-Elite</strong></p>
                     <h1 class="display-1 text-white mb-5 animated slideInLeft">Der Weg zu Ihrem Erfolg</h1>
-                    <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Erfahre mehr</a>
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <a class="btn  rounded-pill py-3 px-5 animated slideInLeft" style="background-color: #0064b2; color: #fff;" href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Jetzt beraten lassen</a>
+                    <!-- Calendly link widget end -->
                 </div>
             </div>
         </div>
     </div>
-    <a href="#next-section" class="scroll-down btn btn-primary rounded-circle">
-        <i class="fas fa-chevron-down"></i>
-    </a>
 </div>
     <!-- Carousel End -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style=" backdrop-filter: blur(25px) invert(.2);  background-color: rgba(255, 255, 255, .15);">
+        <div class="container">
+            <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Pantheon</span><span
+                    style="color: #fff;">Elite</span></a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Über Uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Kontakt</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://t.me/Baucampus_bot">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
+                            EN 
+                        </a>
+                    </li><li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
+                            RU
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
 
 <!-- Service Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-5 mb-5">Ihr Partner in Dubai</h1>
             <p class="fs-5 fw-medium text-primary">Unsere Dienstleistungen</p>
-            <h1 class="display-5 mb-5">Dienstleistungen in Dubai</h1>
+
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -226,6 +267,7 @@
 
 <!-- Kontakt Start -->
     <section class="page-section bg-light">
+        <div class="container-xxl py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -294,6 +336,8 @@
                 </div>
             </div>
         </div>
+        </div>
+
     </section>
     <!-- Kontakt End -->
 
@@ -491,21 +535,23 @@
     <!-- Kontakt2 Start -->
 
 <section class="page-section bg-light">
+        <div class="container-xxl py-5">    
             <div class="container">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <p class="fs-5 fw-medium text-primary">Kontaktformular</p>
                     <h1 class="display-5 mb-5">Kontakformular</h1>
                 </div>
             </div>
-<div class="calendly-inline-widget"
-    data-url="https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai?hide_gdpr_banner=1"
-    style="min-width:320px;height:630px;"></div>
+        <div class="calendly-inline-widget"
+                 data-url="https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai?hide_gdpr_banner=1"
+                 style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async=""></script>
+            </div>
+
 </section>
     <!-- Kontakt2 End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer  py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid footer  py-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #002440;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -513,16 +559,10 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Meydan, Dubai</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pantheon-elite.ae</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <a href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0"
+                        class="btn rounded-pill py-2 px-3 float-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/Baucampus_bot" class="btn rounded-pill py-2 px-3 float-telegram" target="_blank"><i
+                            class="fab fa-telegram"></i></a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Links</h4>
@@ -541,27 +581,19 @@
                     <p class="mb-1">Sonntag</p>
                     <h6 class="text-light">09:00 - 12:00</h6>
                 </div>
+                <div class="col-lg-3 col-md-6">                    
+                    <h4 class="text-white mb-4">Social Media</h4>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="fw-medium text-light" href="#">Pantheon-Elite</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
@@ -587,6 +619,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
         integrity="sha384-cek7w7w2ONa/xDpUfTLINKtDE9lF1ro9AvL7l87ZeM6/z99i6g3P6r5Q5f5da6aY"
         crossorigin="anonymous"></script>
+    <script>$(function () {
+            $('a[href*=#]').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
+            });
+        });</script>
 </body>
 
 </html>
