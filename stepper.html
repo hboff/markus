@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Step-Formular</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #form-container {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .step {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .theme-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .theme-btn i {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    #progress-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .step-indicator {
+      position: relative;
+      font-size: 24px;
+      color: #ccc;
+    }
+
+    .step-indicator.active {
+      color: #4CAF50;
+    }
+
+    .step-indicator.completed {
+      color: #007bff;
+    }
+
+    .step-indicator::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -50%;
+      width: 100%;
+      height: 2px;
+      background-color: #ccc;
+      z-index: -1;
+    }
+
+    .step-indicator.completed::after {
+      background-color: #007bff;
+    }
+
+    #back-btn {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    .step-indicator.completed {
+  color: #4CAF50;
+}
+
+.step-indicator.completed::after {
+  background-color: #4CAF50;
+}
+  </style>
+</head>
+
+<body>
+  <div id="form-container">
+    <h1>Multi-Step-Formular</h1>
+    <div id="step1" class="step">
+      <div id="progress-bar">
+        <div class="step-indicator active" id="indicator1"><i class="fas fa-home"></i></div>
+        <div class="step-indicator" id="indicator2"><i class="fas fa-building"></i></div>
+        <div class="step-indicator" id="indicator3"><i class="fas fa-industry"></i></div>
+        <div class="step-indicator" id="indicator4"><i class="fas fa-landmark"></i></div>
+        <div class="step-indicator" id="indicator5"><i class="fas fa-hotel"></i></div>
+              </div>
+              <h2>Schritt 1</h2>
+              <button class="theme-btn" onclick="selectTheme('haus')"><i class="fas fa-home"></i> Haus</button>
+              <button class="theme-btn" onclick="selectTheme('wohnung')"><i class="fas fa-building"></i> Wohnung</button>
+              <button class="theme-btn" onclick="selectTheme('gewerbe')"><i class="fas fa-industry"></i> Gewerbe</button>
+              <button class="theme-btn" onclick="selectTheme('grundstueck')"><i class="fas fa-landmark"></i> Grundstück</button>
+              <button class="theme-btn" onclick="selectTheme('sonderimmobilien')"><i class="fas fa-hotel"></i>
+                Sonderimmobilien</button>
+              <button onclick="nextStep(2)">Weiter</button>
+              </div>
+              <div id="step2" class="step" style="display: none;">
+                <div id="progress-bar">
+                  <div class="step-indicator" id="indicator1"><i class="fas fa-home"></i></div>
+                  <div class="step-indicator active" id="indicator2"><i class="fas fa-building"></i></div>
+                  <div class="step-indicator" id="indicator3"><i class="fas fa-industry"></i></div>
+                  <div class="step-indicator" id="indicator4"><i class="fas fa-landmark"></i></div>
+                  <div class="step-indicator" id="indicator5"><i class="fas fa-hotel"></i></div>
+                </div>
+                <h2>Schritt 2</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <button id="back-btn" onclick="prevStep()">Zurück</button>
+                <button onclick="nextStep(3)">Weiter</button>
+              </div>
+              <div id="step3" class="step" style="display: none;">
+                <div id="progress-bar">
+                  <div class="step-indicator" id="indicator1"><i class="fas fa-home"></i></div>
+                  <div class="step-indicator completed" id="indicator2"><i class="fas fa-building"></i></div>
+                  <div class="step-indicator active" id="indicator3"><i class="fas fa-industry"></i></div>
+                  <div class="step-indicator" id="indicator4"><i class="fas fa-landmark"></i></div>
+                  <div class="step-indicator" id="indicator5"><i class="fas fa-hotel"></i></div>
+                </div>
+                <h2>Schritt 3</h2>
+                <!-- Formularfelder für Schritt 3 -->
+                <button id="back-btn" onclick="prevStep()">Zurück</button>
+                <button onclick="nextStep(4)">Weiter</button>
+              </div>
+              <div id="step4" class="step" style="display: none;">
+      <div id="progress-bar">
+        <div class="step-indicator" id="indicator1"><i class="fas fa-home"></i></div>
+        <div class="step-indicator completed" id="indicator2"><i class="fas fa-building"></i></div>
+        <div class="step-indicator completed" id="indicator3"><i class="fas fa-industry"></i></div>
+        <div class="step-indicator active" id="indicator4"><i class="fas fa-landmark"></i></div>
+        <div class="step-indicator" id="indicator5"><i class="fas fa-hotel"></i></div>
+      </div>
+      <h2>Schritt 4</h2>
+      <!-- Formularfelder für Schritt 4 -->
+      <button id="back-btn" onclick="prevStep()">Zurück</button>
+      <button onclick="nextStep(5)">Weiter</button>
+      </div>
+      <div id="step5" class="step" style="display: none;">
+        <div id="progress-bar">
+          <div class="step-indicator" id="indicator1"><i class="fas fa-home"></i></div>
+          <div class="step-indicator completed" id="indicator2"><i class="fas fa-building"></i></div>
+          <div class="step-indicator completed" id="indicator3"><i class="fas fa-industry"></i></div>
+          <div class="step-indicator completed" id="indicator4"><i class="fas fa-landmark"></i></div>
+          <div class="step-indicator active" id="indicator5"><i class="fas fa-hotel"></i></div>
+        </div>
+        <h2>Schritt 5</h2>
+        <!-- Formularfelder für Schritt 5 -->
+        <button id="back-btn" onclick="prevStep()">Zurück</button>
+        <button onclick="submitForm()">Absenden</button>
+      </div>
+      </div>
+      <script>
+        let selectedTheme = '';
+
+        function selectTheme(theme) {
+          selectedTheme = theme;
+        }
+
+        let currentStep = 1;
+
+        function nextStep(step) {
+          // Verstecke alle Schritte
+          const steps = document.getElementsByClassName("step");
+          for (let i = 0; i < steps.length; i++) {
+            steps[i].style.display = "none";
+          }
+
+          // Zeige den angeforderten Schritt
+          document.getElementById(`step${step}`).style.display = "block";
+
+          // Aktualisiere die Fortschrittsanzeige
+          document.getElementById(`indicator${currentStep}`).classList.remove("active");
+          document.getElementById(`indicator${step}`).classList.add("active");
+
+          // Zeige den Zurück-Button, wenn nicht im ersten Schritt
+          if (step > 1) {
+            document.getElementById("back-btn").style.display = "block";
+          } else {
+            document.getElementById("back-btn").style.display = "none";
+          }
+
+          // Aktualisiere den aktuellen Schritt
+          currentStep = step;
+        }
+
+        function prevStep() {
+          if (currentStep > 1) {
+            nextStep(currentStep - 1);
+          }
+        }
+      </script>
+      </body>
+      </html>
