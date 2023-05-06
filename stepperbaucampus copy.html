@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>Multistep Formular</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .step-indicator {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            color: #ccc;
+        }
+
+        .step-indicator.active {
+            color: #007bff;
+        }
+
+        .step-indicator.completed {
+            color: #28a745;
+        }
+
+        .option-card {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container pb-2">
+        <div class="row mt-5">
+            <div class="card pt-5">
+                <div class="col-md-8 offset-md-2">
+                    <div id="step1" class="step">
+                        <!-- Schritt 1 -->
+                        <h3>Wählen Sie das Thema aus:</h3>
+                        <!-- Auswahlmöglichkeiten für Schritt 1 -->
+                    </div>
+                    <div id="step2" class="step hidden">
+                        <!-- Schritt 2 -->
+                        <h3 id="step2_title">Thema:</h3>
+                        <div id="step2_content"></div>
+                        <button class="btn btn-secondary" onclick="previousStep()">Zurück</button>
+                        <button class="btn btn-primary" onclick="nextStep()">Weiter</button>
+                    </div>
+                    <div id="step3" class="step hidden">
+                        <!-- Schritt 3 -->
+                        <h3 id="step3_title">Weitere Optionen:</h3>
+                        <div id="step3_content"></div>
+                        <button class="btn btn-secondary" onclick="previousStep()">Zurück</button>
+                        <button class="btn btn-primary" onclick="nextStep()">Weiter</button>
+                    </div>
+                    <div id="step4" class="step hidden">
+                        <!-- Schritt 4 -->
+                        <!-- Abschlussnachricht -->
+                    </div>
+                </div>
+                <div class="progress-indicator mb-4 d-flex justify-content-center mt-2">
+                    <i class="step-indicator fas fa-circle active" id="step1_indicator"></i>
+                    <i class="step-indicator fas fa-circle" id="step2_indicator"></i>
+                    <i class="step-indicator fas fa-circle" id="step3_indicator"></i>
+                    <i class="step-indicator fas fa-circle" id="step4_indicator"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentStep = 1;
+        let selectedTheme = '';
+
+        function nextStep() {
+            if (currentStep < 4) {
+                document.getElementById(`step${currentStep}`).classList.add('hidden');
+                document.getElementById(`step${currentStep}_indicator`).classList.remove('active');
+                document.getElementById(`step${currentStep}_indicator`).classList.add('completed');
+                                currentStep++;
+                                            document.getElementById(`step${currentStep}`).classList.remove('hidden');
+                                            document.getElementById(`step${currentStep}_indicator`).classList.add('active');
+                                        }
+                                    }
+
+                                    function previousStep() {
+                                        if (currentStep > 1) {
+                                            document.getElementById(`step${currentStep}`).classList.add('hidden');
+                                            document.getElementById(`step${currentStep}_indicator`).classList.remove('active');
+                                            currentStep--;
+                                            document.getElementById(`step${currentStep}`).classList.remove('hidden');
+                                            document.getElementById(`step${currentStep}_indicator`).classList.add('active');
+                                            document.getElementById(`step${currentStep}_indicator`).classList.remove('completed');
+                                        }
+                                    }
+
+          function showStep2Buttons(theme) {
+                selectedTheme = theme;
+                document.getElementById('step2_title').textContent = `Thema: ${selectedTheme}`;
+                const step2Content = document.getElementById('step2_content');
+                let buttonsHtml = '';
+
+                switch (theme) {
+                    case 'Baubegleitung':
+                        buttonsHtml = `
+                        <button class="btn btn-info mb-2" id="button1">Baubegleitung 1</button>
+                        <button class="btn btn-info mb-2" id="button2">Baubegleitung 2</button>
+                    `;
+                        break;
+                    case 'Bauschaden':
+                        buttonsHtml = `
+                        <button class="btn btn-info mb-2" id="button3">Button 3</button>
+                        <button class="btn btn-info mb-2" id="button4">Button 4</button>
+                    `;
+                        break;
+                    // Add more cases for other themes here.
+                    default:
+                        buttonsHtml = '<p>Keine weiteren Optionen verfügbar.</p>';
+                }
+
+                step2Content.innerHTML = buttonsHtml;
+
+                // Add event listeners for step 2 buttons
+                const step2Buttons = step2Content.querySelectorAll('button');
+                step2Buttons.forEach((button) => {
+                    button.addEventListener('click', function () {
+                        showStep3Buttons(button.textContent);
+                        document.getElementById('step3_title').textContent = `Thema: ${selectedTheme} - ${button.textContent}`;
+                        nextStep();
+                    });
+                });
+            }
+
+
+                                    function showStep3Buttons(selectedButton) {
+                                        const step3Content = document.getElementById('step3_content');
+                                        let buttonsHtml = '';
+
+                                        switch (selectedButton) {
+                                            case 'Button 1':
+                                                buttonsHtml = `
+                        <button class="btn btn-warning mb-2">Option 1</button>
+                        <button class="btn btn-warning mb-2">Option 2</button>
+                    `;
+                                                break;
+                                            case 'Button 2':
+                                                buttonsHtml = `
+                        <button class="btn btn-warning mb-2">Option 3</button>
+                        <button class="btn btn-warning mb-2">Option 4</button>
+                    `;
+                                                break;
+                                            // Add more cases for other buttons here.
+                                            default:
+                                                buttonsHtml = '<p>Keine weiteren Optionen verfügbar.</p>';
+                                        }
+
+                                        step3Content.innerHTML = buttonsHtml;
+                                    }
+
+                                    // Initialize step 1
+                                    const step1Content = document.getElementById('step1');
+                                    step1Content.innerHTML = `
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card option-card" onclick="showStep2Buttons('Baubegleitung'); nextStep();">
+                        <div class="card-body">
+                            <h4 class="card-title">Baubegleitung</h4>
+                            <p class="card-text">Option 1 Beschreibung</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card option-card" onclick="showStep2Buttons('Bauschaden'); nextStep();">
+                        <div class="card-body">
+                            <h4 class="card-title">Bauschaden</h4>
+                            <p class="card-text">Option 2 Beschreibung</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+                            </script>
+    </body>
+    
+    </html>
+
+                                
