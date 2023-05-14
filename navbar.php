@@ -11,13 +11,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="dienstleistungen">Dienstleistungen</a>
+                        <a class="nav-link" href="dienstleistungen.php">Dienstleistungen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
+                        <a class="nav-link" href="team.php">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Kontakt</a>
+                        <a class="nav-link" href="contact.php">Kontakt</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav d-flex flex-row">
