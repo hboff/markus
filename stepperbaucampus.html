@@ -107,12 +107,12 @@
             case 'Baubegleitung':
                 cardsHtml = `
                 <div class="col-md-6 mb-4">
-                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 1'); nextStep();">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('ABC'); nextStep();">
                         <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
                             <img src="img/credit-card.svg" alt="Card">
                         </div>
                         <div class="payment-card__info p-4">
-                            <h4>Option 1</h4>
+                            <h4>ABC</h4>
                         </div>
                     </div>
                 </div>
@@ -128,6 +128,71 @@
                 </div>
             `;
                 break;
+             case 'Hauskaufberatung':
+                cardsHtml = `
+                            <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('>=200m2'); nextStep();">
+                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
+                            <img src="img/credit-card.svg" alt="Card">
+                        </div>
+                        <div class="payment-card__info p-4">
+                            <h4>Objekt kleiner als 200m²</h4>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 2'); nextStep();">
+                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
+                            <img src="img/credit-card.svg" alt="Card">
+                        </div>
+                        <div class="payment-card__info p-4">
+                            <h4>Objekt kleiner als 300m²</h4>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 2'); nextStep();">
+                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
+                            <img src="img/credit-card.svg" alt="Card">
+                        </div>
+                        <div class="payment-card__info p-4">
+                            <h4>Objekt größer als 300m²</h4>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 2'); nextStep();">
+                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
+                            <img src="img/credit-card.svg" alt="Card">
+                        </div>
+                        <div class="payment-card__info p-4">
+                            <h4>Mehrfamilienhaus</h4>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 2'); nextStep();">
+                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
+                            <img src="img/credit-card.svg" alt="Card">
+                        </div>
+                        <div class="payment-card__info p-4">
+                            <h4>Gewerbeimmobilien</h4>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 2'); nextStep();">
+                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
+                            <img src="img/credit-card.svg" alt="Card">
+                        </div>
+                        <div class="payment-card__info p-4">
+                            <h4>Sonstiges</h4>
+                        </div>
+                    </div>
+                </div>
+
+            `;
+                break;
             case 'Bauschaden':
                 // Ähnlicher Code wie bei Baubegleitung, aber mit anderen Optionen
                 break;
@@ -140,33 +205,15 @@
     }
 
     function showStep3Buttons(option) {
+        selectedOption = option;
+        document.getElementById('step3_title').textContent = `Thema: ${selectedTheme} - ${selectedOption}`;
         const step3Content = document.getElementById('step3_content');
         let cardsHtml = '';
 
         switch (option) {
-            case 'Option 1':
-                cardsHtml = `
-                <div class="col-md-6 mb-4">
-                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 1'); nextStep();">
-                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                            <img src="img/credit-card.svg" alt="Card">
-                        </div>
-                        <div class="payment-card__info p-4">
-                            <h4>Option 3</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep3Buttons('Option 2'); nextStep();">
-                        <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                            <img src="img/credit-card.svg" alt="Card">
-                        </div>
-                        <div class="payment-card__info p-4">
-                            <h4>Option 4</h4>
-                        </div>
-                    </div>
-                </div>
-            `;                break;
+            case 'ABC':
+                // Fügen Sie hier den entsprechenden HTML-Code ein
+                break;
             case 'Option 2':
                 // Fügen Sie hier den entsprechenden HTML-Code ein
                 break;
@@ -178,7 +225,6 @@
         step3Content.innerHTML = `<div class="row mb-3 mt-5">${cardsHtml}</div>`;
     }
 
-
                                     // Initialize step 1
                                     const step1Content = document.getElementById('step1');
                                     step1Content.innerHTML = `
@@ -187,7 +233,7 @@
                                 <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep2Buttons('Baubegleitung'); nextStep();">
                                     <div
                                         class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                                        <img src="img/credit-card.svg" alt="Card">
+                                        <img src="img/baubegleitung.svg" alt="Card">
                                     </div>
                                     <div class="payment-card__info p-4">
                                         <h4>Baubegleitung</h4>
@@ -198,7 +244,7 @@
                                 <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep2Buttons('Bauschaden'); nextStep();">
                                     <div
                                         class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                                        <img src="img/credit-card.svg" alt="Card">
+                                        <img src="img/bauschaden.svg" alt="Card">
                                     </div>
                                     <div class="payment-card__info p-4">
                                         <h4>Bauschaden</h4>
@@ -209,7 +255,7 @@
                                 <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep2Buttons('Energieberatung'); nextStep();">
                                     <div
                                         class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                                        <img src="img/credit-card.svg" alt="Card">
+                                        <img src="img/energieberatung.svg" alt="Card">
                                     </div>
                                     <div class="payment-card__info p-4">
                                         <h4>Energieberatung</h4>
@@ -220,7 +266,7 @@
                                 <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep2Buttons('Hauskaufberatung'); nextStep();">
                                     <div
                                         class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                                        <img src="img/credit-card.svg" alt="Card">
+                                        <img src="img/hauskaufberatung.svg" alt="Card">
                                     </div>
                                     <div class="payment-card__info p-4">
                                         <h4>Hauskaufberatung</h4>
@@ -231,7 +277,7 @@
                                 <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep2Buttons('Immobilienbewertung'); nextStep();">
                                     <div
                                         class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                                        <img src="img/credit-card.svg" alt="Card">
+                                        <img src="img/immobilienbewertung.svg" alt="Card">
                                     </div>
                                     <div class="payment-card__info p-4">
                                         <h4>Immobilienbewertung</h4>
@@ -241,7 +287,7 @@
                             <div class="col-md-4 col-sm-6 mb-4">
                                 <div class="payment-card rounded-lg shadow bg-white text-center h-100" onclick="showStep2Buttons('Schimmelpilz'); nextStep();">
                                     <div class="payment-card__type px-4 py-5 d-flex justify-content-center align-items-center">
-                                        <img src="img/credit-card.svg" alt="Card">
+                                        <img src="img/schimmelpilz.svg" alt="Card">
                                     </div>
                                     <div class="payment-card__info p-4">
                                         <h4>Schimmelpilz</h4>
