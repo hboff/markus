@@ -13,20 +13,24 @@
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-5">Visum</h1>
-                <p class="fs-5 fw-medium text-primary">Visum</p>
+            <div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="px-5 py-5">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <h1 class="display-5 mb-5">Visum</h1>
+                </div>
 
-            </div>
-           <p class="fs-5 fw-medium ">Ganz gleich, ob Sie eine Arbeits-, Investitions-, Familienvisum oder eine Aufenthaltsbewilligung benötigen sind wir für
-        Sie da. Wir informieren Sie über die Bedingungen für die Erlangung aller Kategorien von Visa und
-        Aufenthaltsgenehmigungen. Wir begleiten Sie von der Antragstellung an bis zur erfolgreichen Erlangung des gewünschten
-        Ziels.</p>
-            </div>
+                <div class="col-md-8 mx-auto">
+                <p>Ganz gleich, ob Sie eine Arbeits-, Investitions-, Familienvisum oder eine Aufenthaltsbewilligung benötigen sind wir für
+                 Sie da. Wir informieren Sie über die Bedingungen für die Erlangung aller Kategorien von Visa und
+                 Aufenthaltsgenehmigungen. Wir begleiten Sie von der Antragstellung an bis zur erfolgreichen Erlangung des gewünschten
+                 Ziels.</p>
+                </div>
+                </div>
         </div>
     </div>
+</div>
     <!-- Team End -->
 
 
