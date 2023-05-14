@@ -60,8 +60,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/team-4.jpg" alt="">
-                        <h5>Mathias Mathias</h5>
+                        <img class="img-fluid mb-4" src="img/dimitri.jpg" alt="">
+                        <h5>Dimitri llet</h5>
                         <span class="text-primary">CTO</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="">
+                        <img class="img-fluid mb-4" src="img/oskar.jpeg" alt="">
                         <h5>Oskar Lohse</h5>
                         <span class="text-primary">COO</span>
                         <ul class="team-social">
