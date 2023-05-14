@@ -4,22 +4,12 @@
 <?php include 'navbar.php';?>
 
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Visum</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary" aria-current="page">About</li>
-                </ol>
-            </nav>
-        </div>
+    <!-- Carousel Start -->
+    <div class="fullscreen position-relative">
+        <img src="img/kontoeroeffnung.jpg" alt="Dubai"
+            style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
-    <!-- Page Header End -->
-
-
+    <!-- Carousel End -->
 
     <!-- Team Start -->
     <div class="container-xxl py-5">
