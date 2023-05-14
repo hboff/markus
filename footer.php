@@ -14,11 +14,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Links</h4>
-                    <a class="btn btn-link" href="">Über Uns</a>
-                    <a class="btn btn-link" href="">Kontakt</a>
-                    <a class="btn btn-link" href="">Unsere Dienstleistungen</a>
-                    <a class="btn btn-link" href="">Datenschutzerklärung</a>
-                    <a class="btn btn-link" href="">Impressum</a>
+                    <a class="btn btn-link" href="contact.php">Kontakt</a>
+                    <a class="btn btn-link" href="dienstleistungen.php">Unsere Dienstleistungen</a>
+                    <a class="btn btn-link" href="datenschutzerklaerung.php">Datenschutzerklärung</a>
+                    <a class="btn btn-link" href="impressum.php">Impressum</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Öffnungszeiten</h4>
