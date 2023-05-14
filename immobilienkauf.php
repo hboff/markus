@@ -45,6 +45,7 @@
                 Kauf von Immobilien in den VAE gelten. Wir unterstützen unsere Kunden auch bei der Beantragung von erforderlichen
                 Genehmigungen und Lizenzen, um sicherzustellen, dass alle Anforderungen erfüllt sind und der Kauf reibungslos abläuft.</p>
                 </div>
+                </div>
         </div>
     </div>
 </div>
