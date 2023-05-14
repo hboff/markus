@@ -1,7 +1,75 @@
-<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PantheonElite</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="css/styles.css" rel="stylesheet" />
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+        <!-- MDB CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" />
+        <!-- MDB JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .service-item .service-text {
+            flex-grow: 1;
+        }
+        .fullscreen {
+            height: 100vh;
+        }
+
+.float-whatsapp{
+	width:60px;
+	height:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+}
+.float-telegram{
+	width:60px;
+	height:60px;
+	background-color:#0088cc;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+}
+    </style>
+</head>
 
 <body>
-    <?php include 'navbar.php';?>
 
 <!-- Carousel Start -->
 <div class="fullscreen position-relative">
@@ -25,52 +93,8 @@
     <!-- Carousel End -->
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style=" backdrop-filter: blur(25px) invert(.2);  background-color: rgba(255, 255, 255, .15);">
-        <div class="container">
-            <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Pantheon</span><span
-                    style="color: #fff;">Elite</span></a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="dienstleistungen">Dienstleistungen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Kontakt</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav d-flex flex-row">
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://t.me/Baucampus_bot">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
-                            EN 
-                        </a>
-                    </li><li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
-                            RU
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-<!-- Navbar -->
+    <?php include 'navbar.php';?>
+
 
 <!-- Service Start -->
 <div class="container-xxl py-5">
