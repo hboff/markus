@@ -55,9 +55,9 @@
                 width: 50%;
             }
         }
-        .btn-link:hover {
-    color: inherit;  /* behält die ursprüngliche Farbe bei */
-    text-decoration: none;  /* entfernt die Unterstreichung */
+.col-lg-3.col-md-6 .btn-link:hover {
+    color: inherit;
+    text-decoration: none;
 }
     </style>
 </head>
