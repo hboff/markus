@@ -16,16 +16,12 @@
         <div class="col-lg-10">
             <div class="px-5 py-5">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <h2 class="display-5 mb-5">Kontoeröffnung in den VAE</h2>
-                    <p class="fs-5 fw-medium">Unterschiede zwischen Unternehmen und Privatpersonen</p>
+                    <h2 class="display-5 mb-5">Открытие счета в ОАЭ</h2>
+                    <p class="fs-5 fw-medium">Различия между компаниями и частными лицами</p>
                 </div>
 
                 <div class="col-md-8 mx-auto">
-                    <p>Die Eröffnung eines Bankkontos in den Vereinigten Arabischen Emiraten ist
-                        eine wichtige Voraussetzung für die Gründung eines Unternehmens oder den Umzug als Privatperson. Die Kontoeröffnung
-                        kann jedoch je nach Status des Kontoinhabers und der Art des Kontos, das eröffnet werden soll, unterschiedliche
-                        Anforderungen haben. In diesem Text werden die Unterschiede zwischen der Kontoeröffnung für Unternehmen und
-                        Privatpersonen erläutert.</p>
+                    <p>Открытие банковского счета в Объединенных Арабских Эмиратах является важным условием для создания компании или переезда в качестве частного лица. Однако открытие счета может иметь различные требования в зависимости от статуса владельца счета и типа счета, который должен быть открыт. В этом тексте объясняются различия между открытием счета для компаний и частных лиц.</p>
                 </div>
 
                 <div class="row justify-content-center mt-5">
@@ -33,63 +29,49 @@
                         <div class="text-center mb-4">
                             <i class="fas fa-building fa-5x"></i>
                         </div>
-                        <p class="fs-5 fw-medium">Kontoeröffnung für Unternehmen:</p>
-                    <p>Die Eröffnung eines Bankkontos in den Vereinigten Arabischen Emiraten ist
-                        eine wichtige Voraussetzung für die Gründung eines Unternehmens oder den Umzug als Privatperson. Die Kontoeröffnung
-                        kann jedoch je nach Status des Kontoinhabers und der Art des Kontos, das eröffnet werden soll, unterschiedliche
-                        Anforderungen haben. In diesem Text werden die Unterschiede zwischen der Kontoeröffnung für Unternehmen und
-                        Privatpersonen erläutert.</p>
+                        <p class="fs-5 fw-medium">Открытие счета для компаний:</p>
+                    <p>Открытие банковского счета в Объединенных Арабских Эмиратах является важным условием для создания компании или переезда в качестве частного лица. Однако открытие счета может иметь различные требования в зависимости от статуса владельца счета и типа счета, который должен быть открыт. В этом тексте объясняются различия между открытием счета для компаний и частных лиц.</p>
                 </div>
 
                     <div class="col-md-5 px-5">
                         <div class="text-center mb-4">
                             <i class="fas fa-user fa-5x"></i>
                         </div>
-                        <p class="fs-5 fw-medium">Kontoeröffnung für Privatpersonen:</p>
+                        <p class="fs-5 fw-medium">Открытие счета для частных лиц:</p>
                         <p>
-                            Bei der Kontoeröffnung für Privatpersonen müssen in
-                            der Regel weniger Dokumente vorgelegt werden. Eine Kontoeröffnung kann innerhalb von wenigen Tagen
-                            durchgeführt
-                            werden und erfordert lediglich eine Einzahlung von einem Mindestbetrag, um das Konto zu eröffnen. Es ist
-                            jedoch
-                            wichtig zu beachten, dass die Anforderungen für die Kontoeröffnung je nach Bank und Art des Kontos
-                            unterschiedlich
-                            sein können.</p>
+                            Для открытия счета частным лицам обычно требуется представить меньше документов. Открытие счета может быть выполнено в течение нескольких дней и требует только внесения минимальной суммы для открытия счета. Однако важно отметить, что требования к открытию счета могут варьиров атся в зависимости от банка и типа счета.</p>
                     </div>
                 </div>
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-5 px-5">
-                        <p class="fs-5 fw-medium">Dokumente für Unternehmen:</p>
-                    <p>Bei der Kontoeröffnung für Unternehmen müssen in der Regel
-                        eine Reihe von Dokumenten vorgelegt werden, um die Identität des Unternehmens und seiner Eigentümer zu
-                        bestätigen.
-                        Diese Dokumente umfassen in der Regel:</p>
+                        <p class="fs-5 fw-medium">Документы для компаний:</p>
+                    <p>При открытии счета для компаний обычно требуется представить ряд документов для подтверждения идентичности компании и ее владельцев. Эти документы обычно включают:</p>
                     <ul>
-                        <li>Kopie des Handelsregisters</li>
-                        <li>Geschäftsplan</li>
-                        <li>Bestätigung der Geschäftsadresse</li>
-                        <li>Bestätigung der Geschäftslizenz</li>
-                        <li>Reisepass und Identifikationsnummer der Eigentümer</li>
+                        <li>Копию торгового реестра</li>
+                        <li>Бизнес-план</li>
+                        <li>Подтверждение бизнес-адреса</li>
+                        <li>Подтверждение бизнес-лицензии</li>
+                        <li>Паспорт и идентификационный номер владельцев</li>
                     </ul>
                     </div>
 
                     <div class="col-md-5 px-5">
-                        <p class="fs-5 fw-medium ">Dokumente für Privatpersonen:</p>
-                        <p> Bei der Kontoeröffnung für Privatpersonen werden in der
-                            Regel weniger Dokumente benötigt. Eine Person muss in der Regel nur folgende Dokumente vorlegen:</p>
+                        <p class="fs-5 fw-medium ">Документы для частных лиц:</p>
+                        <p> При открытии счета для частных лиц обычно требуется меньше документов. Человек обычно должен представить только следующие документы:</p>
                         <ul>
-                            <li>Kopie des Reisepasses
-                            <li>Bestätigung der Adresse</li>
+                            <li>Копию паспорта</li>
+                            <li>Подтверждение адреса</li>
                         </ul>
-                        <p>In einigen Fällen kann es jedoch erforderlich sein, weitere Dokumente vorzulegen, wie zum
-                            Beispiel eine Bestätigung der Einkommensquelle oder eine Kreditwürdigkeitsprüfung.</p>
+                        <p>Однако в некоторых случаях может потребоваться представление дополнительных документов, таких как подтверждение источника дохода или проверка кредитоспособности.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
     <!-- Team End -->
 
 

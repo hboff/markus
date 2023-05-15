@@ -115,7 +115,7 @@
                             <p class="mb-0">Мы поможем вам подать заявление на подходящую визу в Дубае, чтобы обеспечить быстрое и беспроблемное получение визы.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>//visum.php">Подробнее<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/visum.php">Подробнее<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                             <p class="mb-0">Наша команда поможет вам создать вашу компанию в Дубае, сопровождая вас на всем пути от выбора правильной формы собственности до регистрации и планирования бизнеса.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/unternehmensgruendung.php">Подробнее<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/unternehmensgruendung.php">Подробнее<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                             <p class="mb-0">Мы предлагаем индивидуальные решения для открытия банковских счетов в Дубае и сопровождаем вас на всем пути, чтобы удовлетворить ваши индивидуальные потребности.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/kontoeroeffnung.php">Подробнее<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/kontoeroeffnung.php">Подробнее<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                             <p class="mb-0">Наши опытные специалисты по недвижимости помогут вам в поиске, выборе и покупке идеальной недвижимости в Дубае, которая соответствует вашим личным требованиям.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/immobilienkauf.php">Подробнее<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/immobilienkauf.php">Подробнее<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                             <p class="mb-0">Наша команда экспертов может помочь вам в поиске, выборе и найме квалифицированного персонала для вашей компании в Дубае, чтобы создать правильный резерв талантов для вашей компании.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/recruiting.php">Подробнее<i                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/recruiting.php">Подробнее<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
                             <p class="mb-0">Мы поможем вам организовать ваш переезд в Дубай, включая поиск подходящего жилья, организацию транспорта и логистики, а также регистрацию в местных органах власти и учреждениях.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/logistik.php">Подробнее<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/logistik.php">Подробнее<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
