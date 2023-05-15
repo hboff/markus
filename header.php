@@ -55,7 +55,7 @@
                 width: 50%;
             }
         }
-.col-lg-3.col-md-6 .btn-link:hover {
+.no-hover:hover {
     color: inherit;
     text-decoration: none;
 }
