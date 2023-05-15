@@ -59,5 +59,9 @@
     color: inherit;
     text-decoration: none;
 }
+.btn-link:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
     </style>
 </head>
