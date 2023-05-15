@@ -58,10 +58,13 @@
 .no-hover:hover {
     color: inherit;
     text-decoration: none;
+    background-color: transparent;
 }
 .btn-link:hover {
     color: inherit !important;
     text-decoration: none !important;
+    background-color: transparent !important;
+
 }
     </style>
 </head>
