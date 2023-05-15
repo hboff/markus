@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Pantheon-Elite</title>
+    <title>PantheonElite</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -11,6 +11,7 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <link href="css/styles.css" rel="stylesheet" />
+    
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +19,14 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
         rel="stylesheet">
 
+        <!-- MDB CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" />
+        <!-- MDB JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -41,78 +48,61 @@
             height: 100vh;
         }
 
-        .scroll-down {
-            position: absolute;
-            bottom: 15px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+.float-whatsapp{
+	width:60px;
+	height:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+}
+.float-telegram{
+	width:60px;
+	height:60px;
+	background-color:#0088cc;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+}
     </style>
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
-    <!-- Spinner End -->
 
-
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-white sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-                <a href="index.html" class="navbar-brand d-lg-none">
-                    <h1 class="fw-bold m-0">GrowMark</h1>
-                </a>
-                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="dienstleistungen.html" class="nav-item nav-link">Services</a>
-                        <a href="about.html" class="nav-item nav-link">Über Uns</a>
-                        <a href="en/index.html" class="nav-item nav-link">EN</a>
-                        <a href="ru/index.html" class="nav-item nav-link">RU</a>
-                    </div>
-                    <div class="ms-auto d-none d-lg-block">
-                        <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-3">Kontakt</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Navbar End -->
-
-    <!-- Carousel Start -->
+<!-- Carousel Start -->
 <div class="fullscreen position-relative">
-    <img class="w-100 h-100 object-fit-cover" src="img/carousel-2.jpg" alt="Image">
+    <img src="img/carousel-2.jpg" alt="Dubai" style="float:left;width:100vw;height:100vh;object-fit:cover;   object-position: top">
     <div class="carousel-caption">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-lg-7 text-end">
                     <p class="fs-4 text-white animated slideInLeft"><strong>Pantheon-Elite</strong></p>
-                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Ready to Grow Your Business</h1>
-                    <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Erfahre mehr</a>
+                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Der Weg zu Ihrem Erfolg</h1>
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <a class="btn  rounded-pill py-3 px-5 animated slideInLeft" style="background-color: #0064b2; color: #fff;" href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Jetzt beraten lassen</a>
+                    <!-- Calendly link widget end -->
                 </div>
             </div>
         </div>
     </div>
-    <a href="#next-section" class="scroll-down btn btn-primary rounded-circle">
-        <i class="fas fa-chevron-down"></i>
-    </a>
 </div>
     <!-- Carousel End -->
+
+    <!-- Navbar -->
+    <?php include 'navbar.php';?>
+
 
 <!-- Service Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-5 mb-5">Ihr Partner in Dubai</h1>
             <p class="fs-5 fw-medium text-primary">Unsere Dienstleistungen</p>
-            <h1 class="display-5 mb-5">Dienstleistungen in Dubai</h1>
+
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -127,7 +117,7 @@
                                 Visumerhalt zu ermöglichen.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/visum.html">Read More<i
+                        <a class="text-primary fw-medium" href="/visum.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -144,7 +134,7 @@
                                 Auswahl der richtigen Rechtsform bis hin zur Registrierung und Geschäftsplanung.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/unternehmensgruendung.html">Read More<i
+                        <a class="text-primary fw-medium" href="/unternehmensgruendung.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -161,7 +151,7 @@
                                 Prozess, um Ihren individuellen Bedürfnissen gerecht zu werden.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/kontoeroeffnung.html">Read More<i
+                        <a class="text-primary fw-medium" href="/kontoeroeffnung.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -178,7 +168,7 @@
                                 Dubai, die Ihren persönlichen Anforderungen entspricht.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/immobilienkauf.html">Read More<i
+                        <a class="text-primary fw-medium" href="/immobilienkauf.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -195,7 +185,7 @@
                                 Dubai unterstützen, um den richtigen Talentpool für Ihr Unternehmen aufzubauen.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/recruiting.html">Read More<i
+                        <a class="text-primary fw-medium" href="/recruiting.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -213,7 +203,7 @@
                                 Einrichtungen.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/logistik.html">Read More<i
+                        <a class="text-primary fw-medium" href="/logistik.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -222,6 +212,83 @@
     </div>
 </div>
 <!-- Service End -->
+
+
+<!-- Kontakt Start -->
+    <section class="page-section bg-light">
+        <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="stepper d-flex flex-column ml-2">
+                        <div class="stepper d-flex flex-column mt-5 ml-2">
+                            <div class="d-flex mb-1">
+                                <div class="d-flex flex-column pr-4 align-items-center">
+                                    <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1 me-2">1</div>
+                                    <div class="line h-100"></div>
+                                </div>
+                                <div>
+                                    <h5 class="text-dark">Schritt 1: Beratungsbedarf ermitteln</h5>
+                                    <p class="lead text-muted pb-3">Ermitteln Sie Ihren Bedarf an Beratungsdienstleistungen in Dubai.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1">
+                                <div class="d-flex flex-column pr-4 align-items-center">
+                                    <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1 me-2">2</div>
+                                    <div class="line h-100"></div>
+                                </div>
+                                <div>
+                                    <h5 class="text-dark">Schritt 2: Unverbindliche Anfrage stellen</h5>
+                                    <p class="lead text-muted pb-3">Senden Sie uns eine unverbindliche Anfrage und erhalten Sie alle wichtigen Informationen.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1">
+                                <div class="d-flex flex-column pr-4 align-items-center">
+                                    <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1 me-2">3</div>
+                                    <div class="line h-100"></div>
+                                </div>
+                                <div>
+                                    <h5 class="text-dark">Schritt 3: Individuelle Strategieentwicklung</h5>
+                                    <p class="lead text-muted pb-3">Lassen Sie uns gemeinsam eine individuelle Strategie entwickeln, um Ihre Ziele in Dubai zu erreichen.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1">
+                                <div class="d-flex flex-column pr-4 align-items-center">
+                                    <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1 me-2">4</div>
+                                    <div class="line h-100"></div>
+                                </div>
+                                <div>
+                                    <h5 class="text-dark">Schritt 4: Finanzierungs- und Investitionsmöglichkeiten</h5>
+                                    <p class="lead text-muted pb-3">Lassen Sie sich von uns über Finanzierungs- und Investitionsmöglichkeiten in Dubai informieren.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-1">
+                                <div class="d-flex flex-column pr-4 align-items-center">
+                                    <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1 me-2">5</div>
+                                    <div class="line h-100 d-none"></div>
+                                </div>
+                                <div>
+                                    <h5 class="text-dark">Schritt 5: Passende Lösungen entwickeln</h5>
+                                    <p class="lead text-muted pb-3">Nutzen Sie unsere Expertise  um erfolgreich in Dubai zu agieren.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="calendly-inline-widget"
+                        data-url="https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai?hide_gdpr_banner=1"
+                        style="min-width:320px;height:680px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                        async></script>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- Kontakt End -->
 
     <!-- Features Start -->
     <div class="container-xxl py-5">
@@ -269,7 +336,9 @@
     </div>
     <!-- Features End -->
 
+
     <!-- Project Start -->
+<section class="page-section bg-light">
     <div class="container-xxl pt-5">
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
@@ -281,12 +350,6 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="img/project-1.jpg" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-1.jpg"
-                                data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Tech-Startups</a>
@@ -297,12 +360,6 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="img/project-2.jpg" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-2.jpg"
-                                data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Luxusimmobilien</a>
@@ -313,12 +370,6 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="img/project-3.jpg" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-3.jpg"
-                                data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Familienunternehmen</a>
@@ -329,12 +380,6 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                         <img class="img-fluid" src="img/project-4.jpg" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
-                                data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
-                        </div>
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">E-Commerce-Unternehmen</a>
@@ -345,6 +390,7 @@
             </div>
         </div>
     </div>
+</section>
     <!-- Project End -->
 
     <!-- Team Start -->
@@ -361,8 +407,6 @@
                         <h5>Markus Maier</h5>
                         <span class="text-primary">Founder & CEO</span>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
@@ -374,8 +418,6 @@
                         <h5>Andreas Schlegel</h5>
                         <span class="text-primary">Founder</span>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
@@ -383,12 +425,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="">
-                        <h5>Mathias</h5>
-                        <span class="text-primary">COO</span>
+                        <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="">
+                        <h5>Dr. Dimitri llet</h5>
+                        <span class="text-primary">Fachanwalt für Steuerrecht</span>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
@@ -396,12 +436,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/team-4.jpg" alt="">
+                        <img class="img-fluid mb-4" src="img/oskar.jpg" alt="">
                         <h5>Oskar Lohse</h5>
                         <span class="text-primary">CTO</span>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
@@ -412,67 +450,9 @@
     </div>
     <!-- Team End -->
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Unser Büro</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Meydan, Dubai</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pantheon-elite.ae</p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Links</h4>
-                    <a class="btn btn-link" href="">Über Uns</a>
-                    <a class="btn btn-link" href="">Kontakt</a>
-                    <a class="btn btn-link" href="">Unsere Dienstleistungen</a>
-                    <a class="btn btn-link" href="">Datenschutzerklärung</a>
-                    <a class="btn btn-link" href="">Impressum</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Öffnungszeiten</h4>
-                    <p class="mb-1">Montag - Freitag</p>
-                    <h6 class="text-light">09:00 - 17:00</h6>
-                    <p class="mb-1">Samstag</p>
-                    <h6 class="text-light">09:00 - 12:00</h6>
-                    <p class="mb-1">Sonntag</p>
-                    <h6 class="text-light">09:00 - 12:00</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
+<?php include 'kontakt-incl.php';?>
 
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="fw-medium text-light" href="#">Pantheon-Elite</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+<?php include 'footer.php';?>
 
 
     <!-- JavaScript Libraries -->
@@ -495,6 +475,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
         integrity="sha384-cek7w7w2ONa/xDpUfTLINKtDE9lF1ro9AvL7l87ZeM6/z99i6g3P6r5Q5f5da6aY"
         crossorigin="anonymous"></script>
+    <script>$(function () {
+            $('a[href*=#]').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
+            });
+        });</script>
 </body>
 
 </html>
