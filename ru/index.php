@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
@@ -79,11 +79,11 @@
             <div class="row justify-content-end">
                 <div class="col-lg-7 text-end">
                     <p class="fs-4 text-white animated slideInLeft"><strong>Pantheon-Elite</strong></p>
-                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Der Weg zu Ihrem Erfolg</h1>
+                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Путь к вашему успеху</h1>
                     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
                     <a class="btn  rounded-pill py-3 px-5 animated slideInLeft" style="background-color: #0064b2; color: #fff;" href=""
-                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Jetzt beraten lassen</a>
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Получить консультацию сейчас</a>
                     <!-- Calendly link widget end -->
                 </div>
             </div>
@@ -109,13 +109,13 @@
             <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-5.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Разрешение на проживание / Виза</h4>
                             <p class="mb-0">Мы поможем вам подать заявление на подходящую визу в Дубае, чтобы обеспечить быстрое и беспроблемное получение визы.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/visum.php">Подробнее<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>//visum.php">Подробнее<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                   <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-6.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Основание компании</h4>
                             <p class="mb-0">Наша команда поможет вам создать вашу компанию в Дубае, сопровождая вас на всем пути от выбора правильной формы собственности до регистрации и планирования бизнеса.</p>
@@ -139,7 +139,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="fluid" src="img/icon/icon-7.png" alt="Icon">
+                            <img class="fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-7.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Открытие счета</h5>
                             <p class="mb-0">Мы предлагаем индивидуальные решения для открытия банковских счетов в Дубае и сопровождаем вас на всем пути, чтобы удовлетворить ваши индивидуальные потребности.</p>
@@ -154,7 +154,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-8.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Покупка недвижимости</h5>
                             <p class="mb-0">Наши опытные специалисты по недвижимости помогут вам в поиске, выборе и покупке идеальной недвижимости в Дубае, которая соответствует вашим личным требованиям.</p>
@@ -169,7 +169,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-9.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Подбор персонала</h5>
                             <p class="mb-0">Наша команда экспертов может помочь вам в поиске, выборе и найме квалифицированного персонала для вашей компании в Дубае, чтобы создать правильный резерв талантов для вашей компании.</p>
@@ -183,7 +183,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-10.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Услуги по переезду</h5>
                             <p class="mb-0">Мы поможем вам организовать ваш переезд в Дубай, включая поиск подходящего жилья, организацию транспорта и логистики, а также регистрацию в местных органах власти и учреждениях.</p>
@@ -284,7 +284,7 @@
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                 <div class="feature-item border h-100 p-5">
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                        <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-1.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Услуги</h5>
                     <p class="mb-0">Мы предлагаем услуги высшего класса, основанные на многолетнем опыте и отраслевых знаниях</p>
@@ -293,7 +293,7 @@
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                 <div class="feature-item border h-100 p-5">
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-2.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Профессиональная команда</h5>
                     <p class="mb-0">Наша преданная и опытная команда состоит из экспертов различных областей, чтобы вместе реализовать ваши цели.</p>
@@ -302,7 +302,7 @@
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                 <div class="feature-item border h-100 p-5">
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-3.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Справедливые цены</h5>
                     <p class="mb-0">Мы ценим прозрачность и предлагаем конкурентоспособные цены без компромиссов.</p>
@@ -311,7 +311,7 @@
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="feature-item border h-100 p-5">
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                        <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-4.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Поддержка</h5>
                     <p class="mb-0">Наш надежный служба поддержки работает круглосуточно, чтобы ответить на ваши вопросы, чтобы вы могли сосредоточиться на главном.</p>
@@ -335,7 +335,7 @@
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-1.jpg" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Технологические стартапы</a>
@@ -344,7 +344,7 @@
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-2.jpg" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Люксовая недвижимость</a>
@@ -353,7 +353,7 @@
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-3.jpg" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Семейный бизнес</a>
@@ -362,7 +362,7 @@
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-4.jpg" alt="">
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Электронная коммерция</a>
@@ -380,13 +380,13 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Unser Team</p>
-                <h1 class="display-5 mb-5">Unsere Experten - Ihre Visionen</h1>
+                <p class="fs-5 fw-medium text-primary">Наша команда</p>
+                <h1 class="display-5 mb-5">Наши эксперты - Ваши видения</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/markus.jpeg" alt="">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="">
                         <h5>Markus Maier</h5>
                         <span class="text-primary">Founder & CEO</span>
                         <ul class="team-social">
@@ -397,7 +397,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="">
                         <h5>Andreas Schlegel</h5>
                         <span class="text-primary">Founder</span>
                         <ul class="team-social">
@@ -408,7 +408,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="">
                         <h5>Dr. Dimitri llet</h5>
                         <span class="text-primary">Fachanwalt für Steuerrecht</span>
                         <ul class="team-social">
@@ -419,7 +419,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/oskar.jpg" alt="">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/oskar.jpg" alt="">
                         <h5>Oskar Lohse</h5>
                         <span class="text-primary">CTO</span>
                         <ul class="team-social">
