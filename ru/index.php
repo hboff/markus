@@ -9,8 +9,8 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/favicon.ico" rel="icon">
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/css/styles.css" rel="stylesheet" />
     
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,15 +30,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/css/style.css" rel="stylesheet">
 
     <style>
         .service-item .service-text {
@@ -93,7 +93,7 @@
     <!-- Carousel End -->
 
     <!-- Navbar -->
-    <?php include 'navbar.php';?>
+    <?php include '../navbar.php';?>
 
 
 <!-- Service Start -->
@@ -433,9 +433,9 @@
     </div>
     <!-- Team End -->
 
-<?php include 'kontakt-incl.php';?>
+<?php include '../kontakt-incl.php';?>
 
-<?php include 'footer.php';?>
+<?php include '../footer.php';?>
 
 
     <!-- JavaScript Libraries -->
