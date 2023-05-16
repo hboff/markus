@@ -422,8 +422,8 @@
                         <div class="team-content">
                             <h5>Markus Maier</h5>
                             <p class="text-primary">Founder & CEO</p>
-                            <p style="text-align: left;"><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-                            <p style="text-align: left;"><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+                            <p ><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+                            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
                             <ul class="team-social">
                                 <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                                 <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -437,8 +437,8 @@
                         <div class="team-content">                        
                         <h5>Andreas Schlegel</h5>
                         <p class="text-primary">Founder</p>
-                        <p style="text-align: left;"><b>Fachgebiet:</b> Immobilien</p>
-                        <p style="text-align: left;"><b>Sprachen:</b> Russisch, Deutsch</p>
+                        <p><b>Fachgebiet:</b> Immobilien</p>
+                        <p><b>Sprachen:</b> Russisch, Deutsch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -452,8 +452,8 @@
                         <div class="team-content">                        
                         <h5>Dr. Dmitrij Balliet</h5>
                         <p class="text-primary">Partner</p>
-                        <p style="text-align: left;"><b>Fachgebiet:</b> internationales Steuerrecht</p>
-                        <p style="text-align: left;"><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+                        <p><b>Fachgebiet:</b> Immobilien</p>
+                        <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -467,8 +467,8 @@
                         <div class="team-content">                        
                         <h5>Mathias Krüger</h5>
                         <p class="text-primary">Partner</p>
-                        <p style="text-align: left;"><b>Fachgebiet:</b>Immobilien</p>
-                        <p style="text-align: left;"><b>Sprachen:</b>Deutsch, Englisch</p>
+                        <p><b>Fachgebiet:</b>Immobilien</p>
+                        <p><b>Sprachen:</b>Deutsch, Englisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
