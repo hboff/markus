@@ -22,34 +22,12 @@
                     </div>
 
                     <div class="col-md-8 mx-auto">
-                    <p>Die Vereinigten Arabischen Emirate sind ein aufstrebendes Geschäftsumfeld und ein beliebter Standort für Unternehmen,
-                    die sich in der Region niederlassen möchten. Bei der Entscheidung, ein Unternehmen in den VAE zu gründen, gibt es zwei
-                    grundlegende Optionen: die Gründung einer Firma im Mainland oder in einer der vielen Freezones des Landes.</p>
-
-                    <p >Die Gründung einer Firma im Mainland bedeutet, dass das Unternehmen in Zusammenarbeit mit einem lokalen Sponsor, der als
-                    "Emirati Sponsor" bezeichnet wird, gegründet wird. Der Sponsor wird 51% der Anteile an der Firma halten, während der
-                    ausländische Investor die restlichen 49% besitzt. Es gibt jedoch Ausnahmen in bestimmten Branchen, in denen ausländische
-                    Investoren 100% der Anteile besitzen können. Ein Beispiel hierfür sind Unternehmen in der Freihandelszone von Dubai.</p>
-
-                    <p >Die Gründung einer Firma in einer Freezone, wie zum Beispiel der Dubai International Financial Centre oder der Jebel Ali
-                    Free Zone, bietet ausländischen Investoren die Möglichkeit, 100% der Anteile an ihrem Unternehmen zu halten. Freezones
-                    bieten auch Steuervorteile, eine schnelle Gründungszeit und ein vereinfachtes Registrierungsverfahren. Freezones sind
-                    ideal für Unternehmen, die in den Bereichen Handel, Logistik, IT und Beratung tätig sind.</p>
-
-                    <p >Es gibt jedoch einige Einschränkungen bei der Gründung eines Unternehmens in einer Freezone. Zum Beispiel müssen
-                    Unternehmen, die in einer Freezone gegründet werden, innerhalb der Grenzen der Freezone operieren, was bedeutet, dass
-                    sie keine Geschäfte innerhalb des Landes tätigen können. Unternehmen, die in einer Freezone gegründet werden, können
-                    jedoch Dienstleistungen und Produkte in andere Länder exportieren und somit ein globales Publikum erreichen.</p>
-
-                    <p >Im Mainland gibt es auch eine größere Auswahl an Geschäftsmöglichkeiten, da Unternehmen in verschiedenen Branchen tätig
-                    sein können, während in den Freezones spezialisierte Branchen wie Handel, IT oder Logistik bevorzugt werden. Die
-                    Gründung eines Unternehmens im Mainland erfordert jedoch in der Regel eine umfassendere Geschäftserfahrung und
-                    Kenntnisse der lokalen Geschäftskultur.</p>
-
-                    <p >Insgesamt gibt es in den VAE verschiedene Möglichkeiten, ein Unternehmen zu gründen, und jede Option hat ihre Vor- und
-                    Nachteile. Ob Sie sich für eine Gründung im Mainland oder in einer Freezone entscheiden, hängt von Ihren spezifischen
-                    Bedürfnissen und Anforderungen ab. Ein erfahrenes Beratungsunternehmen wie Pantheon Elite kann Ihnen dabei helfen, die
-                    Vor- und Nachteile beider Optionen abzuwägen und die beste Entscheidung für Ihr Unternehmen zu treffen.</p>                    </div>
+<p>Объединенные Арабские Эмираты представляют собой развивающуюся бизнес-среду и популярное место для компаний, которые хотят основаться в этом регионе. При принятии решения об открытии компании в ОАЭ есть два основных варианта: основание компании на материке или в одной из многих свободных зон страны.</p>
+<p>Основание компании на материке означает, что компания создается в сотрудничестве с местным спонсором, который называется "спонсором-эмиратом". Спонсор будет владеть 51% акций компании, в то время как иностранный инвестор будет владеть остальными 49%. Однако существуют исключения в определенных отраслях, в которых иностранные инвесторы могут владеть 100% акций. Примером может служить компания в свободной торговой зоне Дубая.</p>
+<p>Основание компании в свободной зоне, например в Дубайском международном финансовом центре или свободной зоне Джебель-Али, предоставляет иностранным инвесторам возможность владеть 100% акций своей компании. Свободные зоны также предлагают налоговые льготы, быстрое время создания и упрощенную процедуру регистрации. Свободные зоны идеально подходят для компаний, работающих в области торговли, логистики, IT и консалтинга.</p>
+<p>Однако есть некоторые ограничения при создании компании в свободной зоне. Например, компании, основанные в свободной зоне, должны работать в пределах свободной зоны, что означает, что они не могут вести бизнес в пределах страны. Однако компании, основанные в свободной зоне, могут экспортировать услуги и продукты в другие страны и таким образом достигать глобальной аудитории.</p>
+<p>На материке также есть больше возможностей для бизнеса, поскольку компании могут работать в различных отраслях, в то время как в свободных зонах предпочтение отдается специализированным отраслям, таким как торговля, IT или логистика. Однако основание компании на материке обычно требует более обширного бизнес-опыта и знания местной деловой культуры.</p>
+<p>В целом, в ОАЭ существует несколько вариантов для открытия компании, и каждый вариант имеет свои преимущества и недостатки. Выбор между основанием компании на материке или в свободной зоне зависит от ваших конкретных потребностей и требований. Опытная консультационная компания, такая как Pantheon Elite, может помочь вам взвесить преимущества и недостатки обоих вариантов и принять наилучшее решение для вашей компании.</p>                  </div>
                 </div>
             </div>
         </div>

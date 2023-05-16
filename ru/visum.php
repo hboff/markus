@@ -1,7 +1,7 @@
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 
 <body>
-    <?php include 'navbar.php';?>
+    <?php include '../navbar.php';?>
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
@@ -22,10 +22,7 @@
                 </div>
 
                 <div class="col-md-8 mx-auto">
-                <p>Ganz gleich, ob Sie eine Arbeits-, Investitions-, Familienvisum oder eine Aufenthaltsbewilligung benötigen sind wir für
-                 Sie da. Wir informieren Sie über die Bedingungen für die Erlangung aller Kategorien von Visa und
-                 Aufenthaltsgenehmigungen. Wir begleiten Sie von der Antragstellung an bis zur erfolgreichen Erlangung des gewünschten
-                 Ziels.</p>
+                    <p>Независимо от того, нужна ли вам рабочая, инвестиционная, семейная виза или вид на жительство, мы готовы помочь. Мы информируем вас о условиях получения всех категорий виз и разрешений на проживание. Мы сопровождаем вас на каждом этапе, начиная с подачи заявления и до успешного получения желаемого результата.</p>
                 </div>
                 </div>
         </div>
@@ -34,9 +31,9 @@
     <!-- Team End -->
 
 
-    <?php include 'kontakt-incl.php';?>
+    <?php include '../kontakt-incl.php';?>
 
-    <?php include 'footer.php';?>
+    <?php include '../footer-ru.php';?>
 
 
     <!-- JavaScript Libraries -->
