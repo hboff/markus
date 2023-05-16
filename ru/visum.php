@@ -1,7 +1,7 @@
 <?php include '../header.php';?>
 
 <body>
-    <?php include '../navbar.php';?>
+    <?php include '../navbar-ru.php';?>
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
