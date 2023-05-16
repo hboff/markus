@@ -32,11 +32,11 @@
                         </a>
                     </li>
                     <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
+                        <a class="nav-link" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/index.php">
                             EN 
                         </a>
                     </li><li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
+                        <a class="nav-link" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/">
                             DE
                         </a>
                     </li>

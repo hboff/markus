@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 <style>
         .service-item .service-text {
             flex-grow: 1;
@@ -8,8 +8,8 @@
         }
         </style>
 <body>
-    <?php include 'navbar.php';?>
-
+    <?php include '../navbar-ru.php';?>
+    
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
         <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/kontoeroeffnung.jpg" alt="Dubai"
@@ -121,9 +121,9 @@
     <!-- Team End -->
 
 
-    <?php include 'kontakt-incl.php';?>
+    <?php include '../kontakt-incl-ru.php';?>
 
-    <?php include 'footer.php';?>
+    <?php include '../footer-ru.php';?>
 
 
     <!-- JavaScript Libraries -->

@@ -1,11 +1,11 @@
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 
 <body>
-    <?php include 'navbar.php';?>
+    <?php include '../navbar-ru.php';?>
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
-        <img src="img/kontoeroeffnung.jpg" alt="Dubai"
+        <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/kontoeroeffnung.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
     <!-- Carousel End -->
@@ -75,9 +75,9 @@
     <!-- Team End -->
 
 
-    <?php include 'kontakt-incl.php';?>
+    <?php include '../kontakt-incl-ru.php';?>
 
-    <?php include 'footer.php';?>
+    <?php include '../footer-ru.php';?>
 
 
     <!-- JavaScript Libraries -->
