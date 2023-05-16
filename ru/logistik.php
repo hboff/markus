@@ -14,9 +14,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-5">Über uns</h1>
-                <p class="fs-5 fw-medium text-primary">Pantheon-Elite</p>
-
+                <h1 class="display-5 mb-5">Логистика</h1>
             </div>
 <p>Как опытные бизнес-консультанты в Дубае, Pantheon Elite обладает обширными знаниями местного рынка и бизнес-культуры, что позволяет нам обеспечивать нашим клиентам бесперебойное переезд и успешное расширение бизнеса. Мы предлагаем нашим клиентам широкий спектр услуг, начиная от упаковки и транспортировки личных вещей до хранения товаров и соблюдения таможенных правил.</p>
 
