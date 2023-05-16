@@ -93,7 +93,7 @@
     <!-- Carousel End -->
 
     <!-- Navbar -->
-    <?php include '../navbar.php';?>
+    <?php include '../navbar-ru.php';?>
 
 
 <!-- Service Start -->
