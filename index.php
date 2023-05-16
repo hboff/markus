@@ -66,6 +66,12 @@
 	text-align:center;
   font-size:30px;
 }
+.team-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
     </style>
 </head>
 
@@ -404,19 +410,22 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                        <h5>Markus Maier</h5>
-                        <p class="text-primary">Founder & Ceo</p>
-                        <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-                        <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
+                        <div class="team-content">
+                            <h5>Markus Maier</h5>
+                            <p class="text-primary">Founder & CEO</p>
+                            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+                            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+                            <ul class="team-social">
+                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
                         <h5>Andreas Schlegel</h5>
                         <p class="text-primary">Founder</p>
                         <p><b>Fachgebiet:</b> Immobilien</p>
@@ -425,11 +434,13 @@
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
                         <h5>Dr. Dmitrij Balliet</h5>
                         <p class="text-primary">Partner</p>
                         <p><b>Fachgebiet:</b> Immobilien</p>
@@ -437,12 +448,14 @@
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
+                        </ul> 
+                       </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
                         <h5>Mathias Krüger</h5>
                         <p class="text-primary">Partner</p>
                         <p><b>Fachgebiet:</b>Immobilien</p>
@@ -451,6 +464,7 @@
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
+                        </div>
                     </div>
                 </div>
             </div>
