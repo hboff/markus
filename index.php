@@ -406,6 +406,7 @@
                         <img class="img-fluid mb-4" src="img/markus.jpeg" alt="">
                         <h5>Markus Maier</h5>
                         <span class="text-primary">Founder & CEO</span>
+                        <span class="text-primary">Russisch, Deutsch, Englisch</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -417,6 +418,7 @@
                         <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="">
                         <h5>Andreas Schlegel</h5>
                         <span class="text-primary">Founder</span>
+                        <span class="text-primary">Russisch, Deutsch</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -426,8 +428,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="">
-                        <h5>Dr. Dimitri llet</h5>
+                        <h5>Dr. Dmitrij Balliet</h5>
                         <span class="text-primary">Fachanwalt für Steuerrecht</span>
+                        <span class="text-primary">Russisch, Deutsch, Englisch</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -436,9 +439,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/oskar.jpg" alt="">
-                        <h5>Oskar Lohse</h5>
-                        <span class="text-primary">CTO</span>
+                        <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="">
+                        <h5>Mathias Krüger</h5>
+                        <span class="text-primary">Partner</span>
+                        <span class="text-primary">Deutsch, Englisch</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
