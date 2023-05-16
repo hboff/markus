@@ -429,8 +429,7 @@
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <h5>Dr. Dmitrij Balliet</h5>
-                        <span class="text-primary">Fachanwalt für Steuerrecht</span>
-                        <p class="text-primary">Russisch, Deutsch, Englisch</p>
+                        <p>Russisch, Deutsch, Englisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
