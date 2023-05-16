@@ -5,12 +5,10 @@
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
-        <img src="img/kontoeroeffnung.jpg" alt="Dubai"
+        <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/kontoeroeffnung.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
     <!-- Carousel End -->
-
-
 
     <!-- Team Start -->
     <div class="container-fluid">
@@ -31,9 +29,9 @@
     <!-- Team End -->
 
 
-    <?php include 'kontakt-incl-ru.php';?>
+    <?php include '../kontakt-incl-ru.php';?>
 
-    <?php include 'footer-ru.php';?>
+    <?php include '../footer-ru.php';?>
 
 
     <!-- JavaScript Libraries -->

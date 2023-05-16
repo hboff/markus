@@ -33,11 +33,11 @@
                     </li>
                     <li class="nav-item me-3 me-lg-0">
                         <a class="nav-link" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/index.php">
-                            EN 
+                            &#127468;&#127463; 
                         </a>
                     </li><li class="nav-item me-3 me-lg-0">
                         <a class="nav-link" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/index.php">
-                            RU
+                            &#127479;&#127482;
                         </a>
                     </li>
                 </ul>
