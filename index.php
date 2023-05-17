@@ -438,7 +438,7 @@
                         <div class="team-content">                        
                         <h5>Dr. Dmitrij Balliet</h5>
                         <p class="text-primary">Partner</p>
-                        <p><b>Fachgebiet:</b> Immobilien</p>
+                        <p><b>Fachgebiet:</b> internationales Steuerrecht</p>
                         <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
@@ -453,8 +453,8 @@
                         <div class="team-content">                        
                         <h5>Mathias Krüger</h5>
                         <p class="text-primary">Partner</p>
-                        <p><b>Fachgebiet:</b>Immobilien</p>
-                        <p><b>Sprachen:</b>Deutsch, Englisch</p>
+                        <p><b>Fachgebiet: </b>Immobilien</p>
+                        <p><b>Sprachen: </b>Deutsch, Englisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
