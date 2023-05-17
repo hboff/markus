@@ -112,21 +112,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                        <div class="team-content">                        
-                        <h5>Alina Kashina</h5>
-                        <p class="text-primary">Partner</p>
-                        <p><b>Fachgebiet:</b> Immobilien</p>
-                        <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul> 
-                       </div>
-                    </div>
-                </div>
             </div>
             </div>
         </div>
