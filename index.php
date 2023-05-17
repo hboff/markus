@@ -451,8 +451,8 @@
                         <div>
                             <h5>Markus Maier</h5>
                             <p class="text-primary">Founder & CEO</p>
-                            <p><b>Fachgebiet:</b> internationale BankenbeziehungBankenbeziehungBankenbeziehung</p>
-                            <p><b>Sprachen:</b> Russisch, Deutsch, EnglischBankenbeziehungBankenbeziehungBankenbeziehung</p>
+                            <p><b>Fachgebiet:</b> internationale Bankenbeziehung Bankenbeziehung Bankenbeziehung</p>
+                            <p><b>Sprachen:</b> Russisch, Deutsch, EnglischBanken beziehung Bankenbeziehung Bankenbeziehung</p>
                         </div>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
