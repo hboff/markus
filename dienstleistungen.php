@@ -13,7 +13,7 @@
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
         <img src="img/kontoeroeffnung.jpg" alt="Dubai"
-            style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
+            style="float:left;width:100vw;height:70vh;object-fit:cover; margin-bottom:0;  object-position: center">
     </div>
     <!-- Carousel End -->
 
@@ -21,7 +21,7 @@
 <div class="container-xxl">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-5">Unsere Dienstleistungen</h1>
+            <h1 class="display-5 mb-5">Unsere Dienstleistungen</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
