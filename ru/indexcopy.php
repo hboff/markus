@@ -94,7 +94,7 @@
     <!-- Carousel End -->
 
     <!-- Navbar -->
-    <?php include '../navbar-en.php';?>
+    <?php include '../navbar-ru.php';?>
 
 
 <!-- Service Start -->
@@ -377,18 +377,18 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <p class="fs-5 fw-medium text-primary">Our Team</p>
-            <h1 class="display-5 mb-5">Our Experts - Your Visions</h1>
+            <p class="fs-5 fw-medium text-primary">Наша Команда</p>
+            <h1 class="display-5 mb-5">Наши эксперты - Ваши видения</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item rounded overflow-hidden pb-4">
                     <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                     <div class="team-content">
-                        <h5>Markus Maier</h5>
-                        <p class="text-primary">Founder & CEO</p>
-                        <p ><b>Specialty:</b> International Banking Relationships</p>
-                        <p><b>Languages:</b> Russian, German, English</p>
+                        <h5>Маркус Майер</h5>
+                        <p class="text-primary">Основатель & CEO</p>
+                        <p ><b>Специализация:</b> Международные банковские отношения</p>
+                        <p><b>Языки:</b> Русский, Немецкий, Английский</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -400,10 +400,10 @@
                 <div class="team-item rounded overflow-hidden pb-4">
                     <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                     <div class="team-content">                        
-                    <h5>Andreas Schlegel</h5>
-                    <p class="text-primary">Founder</p>
-                    <p><b>Specialty:</b> Real Estate</p>
-                    <p><b>Languages:</b> Russian, German</p>
+                    <h5>Андреас Шлегель</h5>
+                    <p class="text-primary">Основатель</p>
+                    <p><b>Специализация:</b> Недвижимость</p>
+                    <p><b>Языки:</b> Русский, Немецкий</p>
                     <ul class="team-social">
                         <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                         <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -414,42 +414,42 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item rounded overflow-hidden pb-4">
                     <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                    <div class="team-content">                        
-                    <h5>Dr. Dmitrij Balliet</h5>
-                    <p class="text-primary">Partner</p>
-                    <p><b>Specialty:</b> International Tax Law</p>
-                    <p><b>Languages:</b> Russian, German, English</p>
-                    <ul class="team-social">
-                        <li><a                        class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul> 
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                    <div class="team-content">                        
-                    <h5>Mathias Krüger</h5>
-                    <p class="text-primary">Partner</p>
-                    <p><b>Specialty:</b>Real Estate</p>
-                    <p><b>Languages:</b>German, English</p>
-                    <ul class="team-social">
-                        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="team-content">                        
+<h5>Д-р Дмитрий Баллиет</h5>
+<p class="text-primary">Партнер</p>
+<p><b>Специализация:</b> Международное налоговое право</p>
+<p><b>Языки:</b> Русский, Немецкий, Английский</p>
+<ul class="team-social">
+    <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+    <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+</ul> 
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+<div class="team-item rounded overflow-hidden pb-4">
+    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+    <div class="team-content">                        
+    <h5>Матиас Крюгер</h5>
+    <p class="text-primary">Партнер</p>
+    <p><b>Специализация:</b>Недвижимость</p>
+    <p><b>Языки:</b>Немецкий, Английский</p>
+    <ul class="team-social">
+        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
     <!-- Team End -->
 
 <?php include '../kontakt-incl.php';?>
 
-<?php include '../footer-en.php';?>
+<?php include '../footer-ru.php';?>
 
 
     <!-- JavaScript Libraries -->
