@@ -85,10 +85,10 @@
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">
-                            <h5>Markus Maier</h5>
-                            <p class="text-primary">Founder & CEO</p>
-                            <p ><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-                            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+                            <h5>Daniel</h5>
+                            <p class="text-primary">Partner</p>
+                            <p ><b>Fachgebiet:</b>Immobilien</p>
+                            <p><b>Sprachen:</b>Deutsch, Englisch, Französisch, Niederländisch, Türkisch</p>
                             <ul class="team-social">
                                 <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                                 <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -98,12 +98,12 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="img/oskar.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">                        
-                        <h5>Andreas Schlegel</h5>
-                        <p class="text-primary">Founder</p>
-                        <p><b>Fachgebiet:</b> Immobilien</p>
-                        <p><b>Sprachen:</b> Russisch, Deutsch</p>
+                        <h5>Oskar Lohse</h5>
+                        <p class="text-primary">Partner</p>
+                        <p><b>Fachgebiet:</b> Informatik, Immobilien</p>
+                        <p><b>Sprachen:</b>Deutsch, Englisch, Norwegisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -113,9 +113,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">                        
-                        <h5>Dr. Dmitrij Balliet</h5>
+                        <h5>Alina Kashina</h5>
                         <p class="text-primary">Partner</p>
                         <p><b>Fachgebiet:</b> Immobilien</p>
                         <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>

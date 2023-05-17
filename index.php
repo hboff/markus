@@ -66,20 +66,7 @@
 	text-align:center;
   font-size:30px;
 }
-.team-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.team-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%; 
-}
-.team-content {
-    flex: 1;
-}
+
     </style>
 </head>
 
