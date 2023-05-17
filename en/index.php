@@ -80,7 +80,7 @@
             <div class="row justify-content-end">
                 <div class="col-lg-7 text-end">
                     <p class="fs-4 text-white animated slideInLeft"><strong>Pantheon-Elite</strong></p>
-                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Der Weg zu Ihrem Erfolg</h1>
+                    <h1 class="display-1 text-white mb-5 animated slideInLeft">The path to your success</h1>
                     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
                     <a class="btn  rounded-pill py-3 px-5 animated slideInLeft" style="background-color: #0064b2; color: #fff;" href=""
@@ -101,42 +101,35 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-5 mb-5">Ihr Partner in Dubai</h1>
-            <p class="fs-5 fw-medium text-primary">Unsere Dienstleistungen</p>
-
+            <h1 class="display-5 mb-5">Your Partner in Dubai</h1>
+            <p class="fs-5 fw-medium text-primary">Our Services</p>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item position-relative h-100 d-flex flex-column">
+                <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-5.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Aufenthaltsgenehmigung / Visum</h4>
-                            <p class="mb-0">Wir unterstützen Sie bei der Beantragung des passenden Visums für Dubai, um
-                                Ihnen einen reibungslosen und schnellen
-                                Visumerhalt zu ermöglichen.</p>
+                        <h5 class="mb-3">Residence Permit / Visa</h5>
+                        <p class="mb-0">We support you in applying for the appropriate visa for Dubai, to enable a smooth and fast visa receipt.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visum.php">Read More<i
-                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visa.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item position-relative h-100 d-flex flex-column">
-                  <div class="service-text rounded p-5">
+                    <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Unternehmensgründung</h4>
-                            <p class="mb-0">Unser Team hilft Ihnen bei der Gründung Ihrer Firma in Dubai, indem es Sie
-                                durch den gesamten Prozess begleitet, von der
-                                Auswahl der richtigen Rechtsform bis hin zur Registrierung und Geschäftsplanung.</p>
+                        <h5 class="mb-3">Company Formation</h5>
+                        <p class="mb-0">Our team assists you in the establishment of your company in Dubai, by guiding you through the entire process, from choosing the right legal form to registration and business planning.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/unternehmensgruendung.php">Read More<i
-                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/company-formation.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -146,14 +139,11 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-7.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Kontoeröffung</h4>
-                            <p class="mb-0">Wir bieten maßgeschneiderte Lösungen für die Eröffnung von Bankkonten in
-                                Dubai und begleiten Sie durch den gesamten
-                                Prozess, um Ihren individuellen Bedürfnissen gerecht zu werden.</p>
+                        <h5 class="mb-3">Account Opening</h5>
+                        <p class="mb-0">We offer tailored solutions for opening bank accounts in Dubai and accompany you through the entire process to meet your individual needs.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/kontoeroeffnung.php">Read More<i
-                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/account-opening.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -163,14 +153,11 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-8.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Immobilienkauf</h4>
-                            <p class="mb-0">Unsere erfahrenen Immobilienexperten unterstützen Sie bei der Suche, Auswahl
-                                und dem Kauf der idealen Immobilie in
-                                Dubai, die Ihren persönlichen Anforderungen entspricht.</p>
+                        <h5 class="mb-3">Real Estate Purchase</h5>
+                        <p class="mb-0">Our experienced real estate experts support you in searching, selecting and buying the ideal property in Dubai that meets your personal requirements.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/immobilienkauf.php">Read More<i
-                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/real-estate-purchase.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -180,14 +167,11 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-9.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Personalvermittlung</h4>
-                            <p class="mb-0">Unser Expertenteam kann Sie bei der Suche, Auswahl und Einstellung von
-                                qualifiziertem Personal für Ihr Unternehmen in
-                                Dubai unterstützen, um den richtigen Talentpool für Ihr Unternehmen aufzubauen.</p>
+                        <h5 class="mb-3">Recruitment</h5>
+                        <p class="mb-0">Our team of experts can assist you in searching, selecting and hiring qualified personnel for your company in Dubai to build the right talent pool for your company.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruiting.php">Read More<i
-                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruitment.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -197,27 +181,26 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-10.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Umzugsservice</h4>
-                            <p class="mb-0">Wir unterstützen Sie bei der Organisation Ihres Umzugs nach Dubai,
-                                einschließlich der Suche nach geeigneter Unterkunft,
-                                der Organisation von Transport und Logistik sowie der Anmeldung bei lokalen Behörden und
-                                Einrichtungen.</p>
+                        <h5 class="mb-3">Health Insurance</h5>
+                        <p class="mb-0">Our insurance experts will guide you in choosing the right health insurance coverage in Dubai, ensuring all your medical needs are covered.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/logistik.php">Read More<i
-                                class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/health-insurance.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
 <!-- Service End -->
 
 
 <!-- Kontakt Start -->
-    <section class="page-section bg-light">
-        <div class="container-xxl py-5">
+<section class="page-section bg-light">
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -229,8 +212,8 @@
                                     <div class="line h-100"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Schritt 1: Beratungsbedarf ermitteln</h5>
-                                    <p class="lead text-muted pb-3">Ermitteln Sie Ihren Bedarf an Beratungsdienstleistungen in Dubai.</p>
+                                    <h5 class="text-dark">Step 1: Determine consulting needs</h5>
+                                    <p class="lead text-muted pb-3">Determine your need for consulting services in Dubai.</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-1">
@@ -239,8 +222,8 @@
                                     <div class="line h-100"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Schritt 2: Unverbindliche Anfrage stellen</h5>
-                                    <p class="lead text-muted pb-3">Senden Sie uns eine unverbindliche Anfrage und erhalten Sie alle wichtigen Informationen.</p>
+                                    <h5 class="text-dark">Step 2: Make a non-binding inquiry</h5>
+                                    <p class="lead text-muted pb-3">Send us a non-binding inquiry and receive all important information.</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-1">
@@ -249,8 +232,8 @@
                                     <div class="line h-100"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Schritt 3: Individuelle Strategieentwicklung</h5>
-                                    <p class="lead text-muted pb-3">Lassen Sie uns gemeinsam eine individuelle Strategie entwickeln, um Ihre Ziele in Dubai zu erreichen.</p>
+                                    <h5 class="text-dark">Step 3: Individual strategy development</h5>
+                                    <p class="lead text-muted pb-3">Let's develop an individual strategy together to achieve your goals in Dubai.</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-1">
@@ -259,9 +242,8 @@
                                     <div class="line h-100"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Schritt 4: Finanzierungs- und Investitionsmöglichkeiten</h5>
-                                    <p class="lead text-muted pb-3">Lassen Sie sich von uns über Finanzierungs- und Investitionsmöglichkeiten in Dubai informieren.
-                                    </p>
+                                    <h5 class="text-dark">Step 4: Financing and investment opportunities</h5>
+                                    <p class="lead text-muted pb-3">Let us inform you about financing and investment opportunities in Dubai.</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-1">
@@ -270,8 +252,8 @@
                                     <div class="line h-100 d-none"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Schritt 5: Passende Lösungen entwickeln</h5>
-                                    <p class="lead text-muted pb-3">Nutzen Sie unsere Expertise  um erfolgreich in Dubai zu agieren.</p>
+                                    <h5 class="text-dark">Step 5: Develop suitable solutions</h5>
+                                    <p class="lead text-muted pb-3">Use our expertise to operate successfully in Dubai.</p>
                                 </div>
                             </div>
                         </div>
@@ -392,76 +374,77 @@
     <!-- Project End -->
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Unser Team</p>
-                <h1 class="display-5 mb-5">Unsere Experten - Ihre Visionen</h1>
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="fs-5 fw-medium text-primary">Our Team</p>
+            <h1 class="display-5 mb-5">Our Experts - Your Visions</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">
+                        <h5>Markus Maier</h5>
+                        <p class="text-primary">Founder & CEO</p>
+                        <p ><b>Specialty:</b> International Banking Relationships</p>
+                        <p><b>Languages:</b> Russian, German, English</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                        <div class="team-content">
-                            <h5>Markus Maier</h5>
-                            <p class="text-primary">Founder & CEO</p>
-                            <p ><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-                            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-                            <ul class="team-social">
-                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">                        
+                    <h5>Andreas Schlegel</h5>
+                    <p class="text-primary">Founder</p>
+                    <p><b>Specialty:</b> Real Estate</p>
+                    <p><b>Languages:</b> Russian, German</p>
+                    <ul class="team-social">
+                        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                        <div class="team-content">                        
-                        <h5>Andreas Schlegel</h5>
-                        <p class="text-primary">Founder</p>
-                        <p><b>Fachgebiet:</b> Immobilien</p>
-                        <p><b>Sprachen:</b> Russisch, Deutsch</p>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">                        
+                    <h5>Dr. Dmitrij Balliet</h5>
+                    <p class="text-primary">Partner</p>
+                    <p><b>Specialty:</b> Real Estate</p>
+                    <p><b>Languages:</b> Russian, German, English</p>
+                    <ul class="team-social">
+                        <li><a                        class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul> 
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                        <div class="team-content">                        
-                        <h5>Dr. Dmitrij Balliet</h5>
-                        <p class="text-primary">Partner</p>
-                        <p><b>Fachgebiet:</b> Immobilien</p>
-                        <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul> 
-                       </div>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">                        
+                    <h5>Mathias Krüger</h5>
+                    <p class="text-primary">Partner</p>
+                    <p><b>Specialty:</b>Real Estate</p>
+                    <p><b>Languages:</b>German, English</p>
+                    <ul class="team-social">
+                        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                        <div class="team-content">                        
-                        <h5>Mathias Krüger</h5>
-                        <p class="text-primary">Partner</p>
-                        <p><b>Fachgebiet:</b>Immobilien</p>
-                        <p><b>Sprachen:</b>Deutsch, Englisch</p>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <!-- Team End -->
 
 <?php include '../kontakt-incl.php';?>
