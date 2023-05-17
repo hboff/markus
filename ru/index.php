@@ -324,64 +324,9 @@
 
 
     <!-- Project Start -->
-    <section class="page-section bg-light">
-    <div class="container-xxl pt-5">
-        <div class="container">
-            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
-                style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Unsere Projekte</p>
-                <h1 class="display-5 mb-5">Einige unserer abgeschlossenen Projekte</h1>
-            </div>
-            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/project-1.jpg" alt="">
-                    </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Tech-Startups</a>
-                        <span>Wir haben ein Tech-Startup bei der Beantragung eines Geschäftsvisums, der Firmengründung und der Kontoeröffnung
-                        unterstützt und gleichzeitig die Einstellung von Fachkräften für das Unternehmen erleichtert.</span>
-                    </div>
-                </div>
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/project-2.jpg" alt="">
-                    </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Luxusimmobilien</a>
-                        <span>Unser Team hat einem internationalen Investor bei der Beantragung eines Immobilieninvestorenvisums und dem Erwerb einer
-                        Luxusimmobilie in Dubai geholfen, einschließlich der Finanzierung und Kontoeröffnung.</span>
-                    </div>
-                </div>
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
-                    </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Familienunternehmen</a>
-                        <span>Unser Team hat ein Familienunternehmen bei der Beantragung von Familienvisen, der Suche nach geeigneten Wohnungen und
-                        Schulen sowie bei der Rekrutierung von lokalem Personal für den Umzug nach Dubai unterstützt.</span>
-                    </div>
-                </div>
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/project-4.jpg" alt="">
-                    </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">E-Commerce-Unternehmen</a>
-                        <span>Unser Team unterstützte ein E-Commerce-Unternehmen bei der Gründung einer Niederlassung in Dubai, der Beantragung von
-                        Arbeitsvisa für das Team und der erfolgreichen Kontoeröffnung bei einer lokalen Bank.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="page-section bg-light">
     <div class="container-xxl pt-5">
         <div class="container">
-            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
-                style="max-width: 500px;">
                 <p class="fs-5 fw-medium text-primary">Наши проекты</p>
                 <h1 class="display-5 mb-5">Некоторые из наших завершенных проектов</h1>
             </div>
