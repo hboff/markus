@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 my-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
