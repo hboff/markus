@@ -8,18 +8,22 @@
         }
         </style>
 <body>
-    <?php include 'navbar.php';?>
+    <?php include 'navbar-en.php';?>
 
     <!-- Carousel Start -->
-    <div class="fullscreen position-relative">
+    <div>
         <img src="img/kontoeroeffnung.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
     <!-- Carousel End -->
 
-    <!-- Team Start -->
-<div class="container-xxl">
-    <div class="container">
+
+
+<!-- Service Start -->
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="px-5 py-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h1 class="display-5 mb-5">Unsere Dienstleistungen</h1>
         </div>
@@ -130,12 +134,12 @@
         </div>
     </div>
 </div>
-    <!-- Team End -->
+<!-- Service End -->
 
 
     <?php include 'kontakt-incl.php';?>
 
-    <?php include 'footer.php';?>
+    <?php include 'footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->

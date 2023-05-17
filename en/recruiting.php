@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 <body>
-<?php include 'navbar.php';?>
+<?php include 'navbar-en.php';?>
 
 
     <!-- Carousel Start -->
@@ -21,33 +21,11 @@
                 </div>
 
                 <div class="col-md-8 mx-auto">
-                <p>Die Personalvermittlung oder das Recruiting ist ein wichtiger Aspekt für Unternehmen, die in den Vereinigten Arabischen
-                Emiraten tätig sind oder sich in der Region niederlassen möchten. Der Wettbewerb um die besten Talente ist hoch und es
-                kann schwierig sein, qualifizierte Mitarbeiter zu finden, die den Anforderungen des Unternehmens entsprechen. Ein
-                professioneller Personalvermittlungsdienst kann dabei helfen, die richtigen Mitarbeiter zu finden und das Unternehmen
-                bei der Einstellung und der Integration von Mitarbeitern zu unterstützen.</p>
-
-                <p>Pantheon Elite bietet einen umfassenden Personalvermittlungsdienst an, der sich auf die Vermittlung von qualifizierten
-                Fachkräften in verschiedenen Branchen spezialisiert hat. Unser Team von erfahrenen Personalvermittlern arbeitet eng mit
-                unseren Kunden zusammen, um deren spezifischen Anforderungen und Bedürfnisse zu verstehen und geeignete Kandidaten zu
-                identifizieren, die den Anforderungen des Unternehmens entsprechen.</p>
-
-                <p>Wir verstehen, dass jedes Unternehmen unterschiedliche Anforderungen und Bedürfnisse hat, wenn es um die Einstellung
-                neuer Mitarbeiter geht. Deshalb bieten wir maßgeschneiderte Lösungen an, die auf die Bedürfnisse und Anforderungen
-                unserer Kunden zugeschnitten sind. Wir haben Zugang zu einem umfangreichen Netzwerk von qualifizierten Fachkräften, das
-                uns ermöglicht, schnell und effizient Kandidaten zu identifizieren, die den Anforderungen unserer Kunden entsprechen.</p>
-
-                <p>Unser Personalvermittlungsdienst umfasst auch die Unterstützung bei der Beantragung von Arbeitsvisa und die Integration
-                von Mitarbeitern in das Unternehmen. Wir unterstützen unsere Kunden bei der Durchführung von Hintergrundüberprüfungen,
-                der Verhandlung von Gehältern und Vergünstigungen sowie bei der Integration von Mitarbeitern in das Unternehmen. Wir
-                sind bestrebt, unseren Kunden eine umfassende Unterstützung bei der Einstellung von Mitarbeitern zu bieten, um
-                sicherzustellen, dass die Einstellung reibungslos verläuft und die Mitarbeiter produktiv und zufrieden sind.</p>
-
-                <p>Insgesamt bietet Pantheon Elite einen professionellen und effektiven Personalvermittlungsdienst an, der auf die
-                Bedürfnisse und Anforderungen unserer Kunden zugeschnitten ist. Wir sind bestrebt, unseren Kunden qualifizierte
-                Fachkräfte zu vermitteln, die den Anforderungen des Unternehmens entsprechen und zu einer erfolgreichen
-                Geschäftsentwicklung beitragen können. Unser erfahrenes Team von Personalvermittlern steht Ihnen jederzeit zur
-                Verfügung, um Sie bei der Einstellung von Mitarbeitern zu unterstützen.</p>
+                    <p>Staff recruitment or recruiting is a critical aspect for companies operating in the United Arab Emirates or looking to establish themselves in the region. Competition for top talent is high, and it can be challenging to find qualified employees who meet the company's requirements. A professional recruitment service can help find the right employees and assist the company in hiring and integrating staff.</p>
+                    <p>Pantheon Elite offers a comprehensive recruitment service that specializes in placing qualified professionals in various industries. Our team of experienced recruiters works closely with our clients to understand their specific requirements and needs and identify suitable candidates that meet the company's demands.</p>
+                    <p>We understand that every company has different requirements and needs when it comes to hiring new employees. That's why we offer tailored solutions that are customized to our clients' needs and requirements. We have access to an extensive network of qualified professionals, enabling us to identify candidates quickly and efficiently who meet our clients' requirements.</p>
+                    <p>Our recruitment service also includes assistance with applying for work visas and integrating employees into the company. We support our clients in conducting background checks, negotiating salaries and benefits, and integrating employees into the company. We are committed to providing our clients with comprehensive support in hiring employees to ensure that the hiring process goes smoothly and that the employees are productive and satisfied.</p>
+                    <p>Overall, Pantheon Elite offers a professional and effective recruitment service tailored to the needs and requirements of our clients. We are committed to providing our clients with qualified professionals who meet the company's requirements and can contribute to successful business development. Our experienced team of recruiters is always available to assist you in hiring employees.</p>
                 </div>
                 </div>
         </div>
@@ -56,7 +34,7 @@
     <!-- Team End -->
 <?php include 'kontakt-incl.php';?>
 
-<?php include 'footer.php';?>
+<?php include 'footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->

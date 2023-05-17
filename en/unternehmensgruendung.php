@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 <body>
-    <?php include 'navbar.php';?>
+    <?php include 'navbar-en.php';?>
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
@@ -22,34 +22,13 @@
                     </div>
 
                     <div class="col-md-8 mx-auto">
-                    <p>Die Vereinigten Arabischen Emirate sind ein aufstrebendes Geschäftsumfeld und ein beliebter Standort für Unternehmen,
-                    die sich in der Region niederlassen möchten. Bei der Entscheidung, ein Unternehmen in den VAE zu gründen, gibt es zwei
-                    grundlegende Optionen: die Gründung einer Firma im Mainland oder in einer der vielen Freezones des Landes.</p>
-
-                    <p >Die Gründung einer Firma im Mainland bedeutet, dass das Unternehmen in Zusammenarbeit mit einem lokalen Sponsor, der als
-                    "Emirati Sponsor" bezeichnet wird, gegründet wird. Der Sponsor wird 51% der Anteile an der Firma halten, während der
-                    ausländische Investor die restlichen 49% besitzt. Es gibt jedoch Ausnahmen in bestimmten Branchen, in denen ausländische
-                    Investoren 100% der Anteile besitzen können. Ein Beispiel hierfür sind Unternehmen in der Freihandelszone von Dubai.</p>
-
-                    <p >Die Gründung einer Firma in einer Freezone, wie zum Beispiel der Dubai International Financial Centre oder der Jebel Ali
-                    Free Zone, bietet ausländischen Investoren die Möglichkeit, 100% der Anteile an ihrem Unternehmen zu halten. Freezones
-                    bieten auch Steuervorteile, eine schnelle Gründungszeit und ein vereinfachtes Registrierungsverfahren. Freezones sind
-                    ideal für Unternehmen, die in den Bereichen Handel, Logistik, IT und Beratung tätig sind.</p>
-
-                    <p >Es gibt jedoch einige Einschränkungen bei der Gründung eines Unternehmens in einer Freezone. Zum Beispiel müssen
-                    Unternehmen, die in einer Freezone gegründet werden, innerhalb der Grenzen der Freezone operieren, was bedeutet, dass
-                    sie keine Geschäfte innerhalb des Landes tätigen können. Unternehmen, die in einer Freezone gegründet werden, können
-                    jedoch Dienstleistungen und Produkte in andere Länder exportieren und somit ein globales Publikum erreichen.</p>
-
-                    <p >Im Mainland gibt es auch eine größere Auswahl an Geschäftsmöglichkeiten, da Unternehmen in verschiedenen Branchen tätig
-                    sein können, während in den Freezones spezialisierte Branchen wie Handel, IT oder Logistik bevorzugt werden. Die
-                    Gründung eines Unternehmens im Mainland erfordert jedoch in der Regel eine umfassendere Geschäftserfahrung und
-                    Kenntnisse der lokalen Geschäftskultur.</p>
-
-                    <p >Insgesamt gibt es in den VAE verschiedene Möglichkeiten, ein Unternehmen zu gründen, und jede Option hat ihre Vor- und
-                    Nachteile. Ob Sie sich für eine Gründung im Mainland oder in einer Freezone entscheiden, hängt von Ihren spezifischen
-                    Bedürfnissen und Anforderungen ab. Ein erfahrenes Beratungsunternehmen wie Pantheon Elite kann Ihnen dabei helfen, die
-                    Vor- und Nachteile beider Optionen abzuwägen und die beste Entscheidung für Ihr Unternehmen zu treffen.</p>                    </div>
+                        <p>The United Arab Emirates is an emerging business environment and a popular location for companies looking to establish themselves in the region. When deciding to set up a business in the UAE, there are two fundamental options: establishing a company in the Mainland or in one of the many Freezones of the country.</p>
+                        <p>Establishing a company in the Mainland means that the company is set up in collaboration with a local sponsor, referred to as an "Emirati Sponsor". The sponsor will hold 51% of the shares in the company, while the foreign investor owns the remaining 49%. However, there are exceptions in certain industries where foreign investors can own 100% of the shares. An example of this is companies in the Dubai Free Trade Zone.</p>
+                        <p>Setting up a company in a Freezone, such as the Dubai International Financial Centre or the Jebel Ali Free Zone, offers foreign investors the opportunity to hold 100% of the shares in their company. Freezones also offer tax advantages, a quick setup time, and a simplified registration process. Freezones are ideal for companies operating in trade, logistics, IT, and consulting.</p>
+                        <p>However, there are some restrictions when setting up a company in a Freezone. For example, companies established in a Freezone must operate within the boundaries of the Freezone, which means they cannot do business within the country. Companies established in a Freezone can, however, export services and products to other countries, thereby reaching a global audience.</p>
+                        <p>In the Mainland, there is also a wider range of business opportunities, as companies can operate in various industries, while specialized industries such as trade, IT, or logistics are preferred in the Freezones. However, setting up a business in the Mainland typically requires more comprehensive business experience and knowledge of the local business culture.</p>
+                        <p>Overall, there are various options for setting up a business in the UAE, and each option has its pros and cons. Whether you opt for a Mainland or a Freezone setup depends on your specific needs and requirements. An experienced consulting firm like Pantheon Elite can help you weigh the pros and cons of both options and make the best decision for your business.</p>     
+                  </div>
                 </div>
             </div>
         </div>
@@ -59,7 +38,7 @@
 
  <?php include 'kontakt-incl.php';?>
 
-<?php include 'footer.php';?>
+<?php include 'footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->

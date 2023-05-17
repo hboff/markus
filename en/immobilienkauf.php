@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 <body>
-    <?php include 'navbar.php';?>
+    <?php include 'navbar-en.php';?>
 
 
     <!-- Carousel Start -->
@@ -21,29 +21,11 @@
                 </div>
 
                 <div class="col-md-8 mx-auto">
-                <p>Der Kauf von Immobilien in den Vereinigten Arabischen Emiraten ist eine beliebte Investitionsmöglichkeit für Unternehmen
-                und Privatpersonen. Das Land bietet eine Vielzahl von Immobilienoptionen, von Apartments und Villen bis hin zu
-                gewerblichen Immobilien wie Büros und Geschäftsräumen. Der Immobilienmarkt in den VAE ist jedoch dynamisch und es ist
-                wichtig, dass Sie über fundierte Kenntnisse verfügen, bevor Sie eine Investitionsentscheidung treffen.</p>
-
-                <p>Pantheon Elite ist ein erfahrenes Beratungsunternehmen, das seinen Kunden eine umfassende Beratung und Unterstützung
-                beim Kauf von Immobilien in den VAE bietet. Wir arbeiten eng mit unseren Kunden zusammen, um deren spezifischen
-                Anforderungen und Bedürfnisse zu verstehen und die besten Optionen zu identifizieren, die ihren Anforderungen
-                entsprechen.</p>
-
-                <p>Unser Immobilienkauf-Service umfasst eine umfassende Unterstützung bei der Suche und Auswahl von Immobilien, Verhandlung
-                von Preisen und Konditionen sowie Unterstützung bei der Durchführung von rechtlichen Prüfungen und der Abwicklung von
-                Transaktionen. Wir haben ein umfangreiches Netzwerk von Immobilienmaklern, die uns ermöglichen, schnell und effektiv
-                Immobilien zu identifizieren, die den Anforderungen unserer Kunden entsprechen.</p>
-
-                <p>Wir unterstützen unsere Kunden auch bei der Beantragung von Hypotheken und Finanzierungen für den Kauf von Immobilien.
-                Wir arbeiten mit einer Vielzahl von Finanzinstituten zusammen, um unseren Kunden den Zugang zu den besten Hypotheken-
-                und Finanzierungsoptionen zu ermöglichen, die auf ihre Bedürfnisse und Anforderungen zugeschnitten sind.</p>
-
-                <p>Unser Immobilienkauf-Service umfasst auch die Unterstützung bei der Einhaltung der lokalen Gesetze und Vorschriften. Wir
-                stellen sicher, dass unsere Kunden über alle rechtlichen Anforderungen und Einschränkungen informiert sind, die beim
-                Kauf von Immobilien in den VAE gelten. Wir unterstützen unsere Kunden auch bei der Beantragung von erforderlichen
-                Genehmigungen und Lizenzen, um sicherzustellen, dass alle Anforderungen erfüllt sind und der Kauf reibungslos abläuft.</p>
+                    <p>Purchasing real estate in the United Arab Emirates is a popular investment opportunity for businesses and individuals. The country offers a variety of real estate options, from apartments and villas to commercial properties such as offices and retail spaces. However, the real estate market in the UAE is dynamic, and it is important to have informed knowledge before making an investment decision.</p>
+                    <p>Pantheon Elite is an experienced consulting firm that provides comprehensive advice and support to its clients when purchasing real estate in the UAE. We work closely with our clients to understand their specific requirements and needs and to identify the best options that meet their requirements.</p>
+                    <p>Our real estate purchase service includes comprehensive support in searching for and selecting properties, negotiating prices and terms, and assisting with legal checks and transaction processing. We have an extensive network of real estate agents, enabling us to quickly and effectively identify properties that meet our clients' requirements.</p>
+                    <p>We also assist our clients in applying for mortgages and financing for real estate purchases. We work with a variety of financial institutions to provide our clients with access to the best mortgage and financing options tailored to their needs and requirements.</p>
+                    <p>Our real estate purchase service also includes support in complying with local laws and regulations. We ensure that our clients are informed about all legal requirements and restrictions that apply when purchasing real estate in the UAE. We also assist our clients in applying for necessary permits and licenses to ensure that all requirements are met and the purchase process goes smoothly.</p>
                 </div>
                 </div>
         </div>
@@ -54,7 +36,7 @@
 
 <?php include 'kontakt-incl.php';?>
 
-<?php include 'footer.php';?>
+<?php include 'footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->
