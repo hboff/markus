@@ -448,7 +448,7 @@
     <script src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5X+nU6+5k7+i5Z97PbRSJtiwF888E8/og1puFT+8"
