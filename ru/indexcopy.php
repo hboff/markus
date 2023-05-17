@@ -282,8 +282,8 @@
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-1.png" alt="Icon">
                     </div>
-                    <h5 class="mb-3">Performance</h5>
-                    <p class="mb-0">We offer first-class services based on years of experience and industry-specific expertise</p>
+                    <h5 class="mb-3">Услуги</h5>
+                    <p class="mb-0">Мы предлагаем услуги высшего класса, основанные на многолетнем опыте и отраслевых знаниях</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
@@ -291,8 +291,8 @@
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-2.png" alt="Icon">
                     </div>
-                    <h5 class="mb-3">Professional Team</h5>
-                    <p class="mb-0">Our dedicated and experienced team consists of experts from various fields to collectively realize your goals.</p>
+                    <h5 class="mb-3">Профессиональная команда</h5>
+                    <p class="mb-0">Наша преданная и опытная команда состоит из экспертов различных областей, чтобы вместе реализовать ваши цели.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
@@ -300,8 +300,8 @@
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-3.png" alt="Icon">
                     </div>
-                    <h5 class="mb-3">Fair Pricing</h5>
-                    <p class="mb-0">We value transparency and offer competitive prices without making compromises.</p>
+                    <h5 class="mb-3">Справедливые цены</h5>
+                    <p class="mb-0">Мы ценим прозрачность и предлагаем конкурентоспособные цены без компромиссов.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
@@ -309,8 +309,8 @@
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-4.png" alt="Icon">
                     </div>
-                    <h5 class="mb-3">Support</h5>
-                    <p class="mb-0">Our reliable customer service is available around the clock to answer your questions, so you can focus on the essentials.</p>
+                    <h5 class="mb-3">Поддержка</h5>
+                    <p class="mb-0">Наш надежный служба поддержки работает круглосуточно, чтобы ответить на ваши вопросы, чтобы вы могли сосредоточиться на главном.</p>
                 </div>
             </div>
         </div>
@@ -326,8 +326,8 @@
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Our Projects</p>
-                <h1 class="display-5 mb-5">Some of our completed projects</h1>
+                <p class="fs-5 fw-medium text-primary">Наши проекты</p>
+                <h1 class="display-5 mb-5">Некоторые из наших завершенных проектов</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
@@ -335,8 +335,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-1.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Tech Startups</a>
-                        <span>We supported a tech startup in applying for a business visa, setting up a company, and opening an account while facilitating the hiring of professionals for the company.</span>
+                        <a class="d-block h5" href="">Технологические стартапы</a>
+                        <span>Мы помогли технологическому стартапу в подаче заявки на бизнес-визу, регистрации компании и открытии счета, а также облегчили найм специалистов для компании.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -344,8 +344,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-2.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Luxury Real Estate</a>
-                        <span>Our team assisted an international investor in applying for a property investor visa and acquiring a luxury property in Dubai, including financing and account opening.</span>
+                        <a class="d-block h5" href="">Люксовая недвижимость</a>
+                        <span>Наша команда помогла международному инвестору в получении визы инвестора в недвижимость и приобретении роскошной недвижимости в Дубае, включая финансирование и открытие счета.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -353,8 +353,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-3.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Family Business</a>
-                        <span>Our team supported a family business in applying for family visas, searching for suitable apartments and schools, and recruiting local staff for the move to Dubai.</span>
+                        <a class="d-block h5" href="">Семейный бизнес</a>
+                        <span>Наша команда помогла семейному бизнесу в получении семейных виз, поиске подходящих квартир и школ, а также найме местного персонала для переезда в Дубай.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -362,8 +362,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-4.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">E-Commerce Company</a>
-                        <span>Our team assisted an e-commerce company in setting up a branch in Dubai, applying for work visas for the team, and successfully opening an account with a local bank.</span>
+                        <a class="d-block h5" href="">Электронная коммерция</a>
+                        <span>Наша команда помогла компании в области электронной коммерции в открытии филиала в Дубае, подаче заявок на рабочие визы для команды и успешном открытии счета в местном банке.</span>
                     </div>
                 </div>
             </div>
