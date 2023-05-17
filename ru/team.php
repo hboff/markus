@@ -12,94 +12,112 @@
     <!-- Carousel End -->
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+<div class="container-fluid">
+    <div class="row justify-content-center">
+                <div class="col-lg-10">
+            <div class="px-5 py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-5">Unsere Experten - Ihre Visionen</h1>
+                <h1 class="display-5 my-5">Наши эксперты - Ваши видения</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/markus.jpeg" alt="">
-                        <h5>Markus Maier</h5>
-                        <span class="text-primary">Founder & CEO</span>
-                        <ul class="team-social">
-                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
+                        <img class="img-fluid mb-4" src="img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">
+                            <h5>Маркус Майер</h5>
+                            <p class="text-primary">Основатель & CEO</p>
+                            <p ><b>Специализация:</b> международные банковские отношения</p>
+                            <p><b>Языки:</b> Русский, Немецкий, Английский</p>
+                            <ul class="team-social">
+                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="">
-                        <h5>Andreas Schlegel</h5>
-                        <span class="text-primary">Founder</span>
+                        <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Андреас Шлегель</h5>
+                        <p class="text-primary">Основатель</p>
+                        <p><b>Специализация:</b> Недвижимость</p>
+                        <p><b>Языки:</b> Русский, Немецкий</p>
                         <ul class="team-social">
-                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="">
-                        <h5>Dimitri </h5>
-                        <span class="text-primary">COO</span>
+                        <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Доктор Дмитрий Баллиет</h5>
+                        <p class="text-primary">Партнер</p>
+                                                <p><b>Специализация:</b> международное налоговое право</p>
+                        <p><b>Языки:</b> Русский, Немецкий, Английский</p>
                         <ul class="team-social">
-                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
+                        </ul> 
+                       </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="">
-                        <h5>Dimitri llet</h5>
-                        <span class="text-primary">CTO</span>
-                        <ul class="team-social">
-                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4 mt-2">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/markus.jpeg" alt="">
-                        <h5>Daniel Daniel</h5>
-                        <span class="text-primary">Founder & CEO</span>
-                        <ul class="team-social">
-                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="">
-                        <h5>Alina Kashina</h5>
-                        <span class="text-primary">Founder</span>
-                        <ul class="team-social">
-                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/oskar.jpg" alt="">
-                        <h5>Oskar Lohse</h5>
-                        <span class="text-primary">COO</span>
+                        <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Матиас Крюгер</h5>
+                        <p class="text-primary">Партнер</p>
+                        <p><b>Специализация: </b>Маркетинг, Недвижимость</p>
+                        <p><b>Языки: </b>Немецкий, Английский</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 my-3">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">
+                            <h5>Даниэль Бекфорд</h5>
+                            <p class="text-primary">Партнер</p>
+                            <p ><b>Специализация:</b> Недвижимость</p>
+                            <p><b>Языки:</b> Английский, Немецкий, Французский, Голландский, Турецкий</p>
+                            <ul class="team-social">
+                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/oskar.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Оскар Лозе</h5>
+                        <p class="text-primary">Партнер</p>
+                        <p><b>Специализация:</b> Информатика, Недвижимость</p>
+                        <p><b>Языки:</b> Немецкий, Английский, Норвежский</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+
     <!-- Team End -->
  
 

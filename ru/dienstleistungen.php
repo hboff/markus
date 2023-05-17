@@ -18,8 +18,10 @@
     <!-- Carousel End -->
 
     <!-- Team Start -->
-<div class="container-xxl py-5">
-    <div class="container">
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="px-5 py-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h1 class="display-5 mb-5">Ваш партнер в Дубае</h1>
             <p class="fs-5 fw-medium text-primary">Наши услуги</p>
@@ -116,6 +118,7 @@
                 </div>
             </div>
         </div>
+         </div>           
     </div>
 </div>
     <!-- Team End -->

@@ -88,8 +88,8 @@
                         <div class="team-content">
                             <h5>Daniel Beckford</h5>
                             <p class="text-primary">Partner</p>
-                            <p ><b>Fachgebiet:</b>Immobilien</p>
-                            <p><b>Sprachen:</b>Englisch, Deutsch, Französisch, Niederländisch, Türkisch</p>
+                            <p ><b>Fachgebiet:</b> Immobilien</p>
+                            <p><b>Sprachen:</b> Englisch, Deutsch, Französisch, Niederländisch, Türkisch</p>
                             <ul class="team-social">
                                 <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                                 <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
@@ -104,7 +104,7 @@
                         <h5>Oskar Lohse</h5>
                         <p class="text-primary">Partner</p>
                         <p><b>Fachgebiet:</b> Informatik, Immobilien</p>
-                        <p><b>Sprachen:</b>Deutsch, Englisch, Norwegisch</p>
+                        <p><b>Sprachen:</b> Deutsch, Englisch, Norwegisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
