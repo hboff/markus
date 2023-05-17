@@ -329,8 +329,8 @@
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Наши проекты</p>
-                <h1 class="display-5 mb-5">Некоторые из наших завершенных проектов</h1>
+                <p class="fs-5 fw-medium text-primary">Our Projects</p>
+                <h1 class="display-5 mb-5">Some of our completed projects</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
@@ -338,8 +338,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-1.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Технологические стартапы</a>
-                        <span>Мы помогли технологическому стартапу в подаче заявки на бизнес-визу, регистрации компании и открытии счета, а также облегчили найм специалистов для компании.</span>
+                        <a class="d-block h5" href="">Tech Startups</a>
+                        <span>We supported a tech startup in applying for a business visa, setting up a company, and opening an account while facilitating the hiring of professionals for the company.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -347,8 +347,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-2.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Люксовая недвижимость</a>
-                        <span>Наша команда помогла международному инвестору в получении визы инвестора в недвижимость и приобретении роскошной недвижимости в Дубае, включая финансирование и открытие счета.</span>
+                        <a class="d-block h5" href="">Luxury Real Estate</a>
+                        <span>Our team assisted an international investor in applying for a property investor visa and acquiring a luxury property in Dubai, including financing and account opening.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -356,8 +356,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-3.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Семейный бизнес</a>
-                        <span>Наша команда помогла семейному бизнесу в получении семейных виз, поиске подходящих квартир и школ, а также найме местного персонала для переезда в Дубай.</span>
+                        <a class="d-block h5" href="">Family Business</a>
+                        <span>Our team supported a family business in applying for family visas, searching for suitable apartments and schools, and recruiting local staff for the move to Dubai.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -365,8 +365,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-4.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Электронная коммерция</a>
-                        <span>Наша команда помогла компании в области электронной коммерции в открытии филиала в Дубае, подаче заявок на рабочие визы для команды и успешном открытии счета в местном банке.</span>
+                        <a class="d-block h5" href="">E-Commerce Company</a>
+                        <span>Our team assisted an e-commerce company in setting up a branch in Dubai, applying for work visas for the team, and successfully opening an account with a local bank.</span>
                     </div>
                 </div>
             </div>
