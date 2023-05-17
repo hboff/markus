@@ -291,51 +291,51 @@
     </section>
     <!-- Kontakt End -->
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-0 feature-row">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="feature-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-1.png" alt="Icon">
-                        </div>
-                        <h5 class="mb-3">Leistung</h5>
-                        <p class="mb-0">Wir bieten erstklassige Dienstleistungen, die auf jahrelanger Erfahrung und branchenspezifischem Fachwissen
-                        basieren</p>
+<!-- Features Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-0 feature-row">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="feature-item border h-100 p-5">
+                    <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-1.png" alt="Icon">
                     </div>
+                    <h5 class="mb-3">Performance</h5>
+                    <p class="mb-0">We offer first-class services based on years of experience and industry-specific expertise</p>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="feature-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-2.png" alt="Icon">
-                        </div>
-                        <h5 class="mb-3">Professionales Team</h5>
-                        <p class="mb-0">Unser engagiertes und erfahrenes Team besteht aus Experten aus verschiedenen Bereichen, um gemeinsam Ihre Ziele zu verwirklichen.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="feature-item border h-100 p-5">
+                    <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-2.png" alt="Icon">
                     </div>
+                    <h5 class="mb-3">Professional Team</h5>
+                    <p class="mb-0">Our dedicated and experienced team consists of experts from various fields to collectively realize your goals.</p>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="feature-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-3.png" alt="Icon">
-                        </div>
-                        <h5 class="mb-3">Faire Preise</h5>
-                        <p class="mb-0">Wir legen Wert auf Transparenz und bieten wettbewerbsfähige Preise, ohne Kompromisse einzugehen.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="feature-item border h-100 p-5">
+                    <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-3.png" alt="Icon">
                     </div>
+                    <h5 class="mb-3">Fair Pricing</h5>
+                    <p class="mb-0">We value transparency and offer competitive prices without making compromises.</p>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="feature-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-4.png" alt="Icon">
-                        </div>
-                        <h5 class="mb-3"> Support</h5>
-                        <p class="mb-0">Unser zuverlässiger Kundenservice ist rund um die Uhr für Sie da, um Ihre Fragen zu beantworten, damit Sie sich auf das Wesentliche konzentrieren können.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <div class="feature-item border h-100 p-5">
+                    <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                        <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-4.png" alt="Icon">
                     </div>
+                    <h5 class="mb-3">Support</h5>
+                    <p class="mb-0">Our reliable customer service is available around the clock to answer your questions, so you can focus on the essentials.</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Features End -->
+</div>
+<!-- Features End -->
+
 
 
     <!-- Project Start -->
