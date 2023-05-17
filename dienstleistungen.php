@@ -10,6 +10,12 @@
 <body>
     <?php include 'navbar.php';?>
 
+    <!-- Carousel Start -->
+    <div class="">
+        <img src="img/kontoeroeffnung.jpg" alt="Dubai"
+            style="float:left;width:100vw;height:70vh;object-fit:cover; margin-bottom:0;  object-position: center">
+    </div>
+    <!-- Carousel End -->
 
 <!-- Service Start -->
 <div class="container-xxl py-5">
