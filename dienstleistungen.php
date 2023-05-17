@@ -18,12 +18,6 @@
     <!-- Carousel End -->
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-5">Umnzugsservice</h1>
-            </div>
-
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item position-relative h-100 d-flex flex-column">
@@ -129,7 +123,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <!-- Team End -->
 
 
