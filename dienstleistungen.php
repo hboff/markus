@@ -11,9 +11,9 @@
     <?php include 'navbar.php';?>
 
     <!-- Carousel Start -->
-    <div class="">
+    <div>
         <img src="img/kontoeroeffnung.jpg" alt="Dubai"
-            style="float:left;width:100vw;height:70vh;object-fit:cover; margin-bottom:0;  object-position: center">
+            style="float:left;width:100vw;height:70vh;object-fit:cover; object-position: center">
     </div>
     <!-- Carousel End -->
 
