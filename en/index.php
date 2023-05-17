@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -74,7 +74,7 @@
 
 <!-- Carousel Start -->
 <div class="fullscreen position-relative">
-    <img src="img/carousel-2.jpg" alt="Dubai" style="float:left;width:100vw;height:100vh;object-fit:cover;   object-position: top">
+    <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/carousel-2.jpg" alt="Dubai" style="float:left;width:100vw;height:100vh;object-fit:cover;   object-position: top">
     <div class="carousel-caption">
         <div class="container">
             <div class="row justify-content-end">
@@ -84,7 +84,7 @@
                     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
                     <a class="btn  rounded-pill py-3 px-5 animated slideInLeft" style="background-color: #0064b2; color: #fff;" href=""
-                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Jetzt beraten lassen</a>
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Get advice now</a>
                     <!-- Calendly link widget end -->
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         <p class="mb-0">We support you in applying for the appropriate visa for Dubai, to enable a smooth and fast visa receipt.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visa.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visum.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                         <p class="mb-0">Our team assists you in the establishment of your company in Dubai, by guiding you through the entire process, from choosing the right legal form to registration and business planning.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/company-formation.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/unternehmensgruendung.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         <p class="mb-0">We offer tailored solutions for opening bank accounts in Dubai and accompany you through the entire process to meet your individual needs.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/account-opening.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/kontoeroeffnung.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                         <p class="mb-0">Our experienced real estate experts support you in searching, selecting and buying the ideal property in Dubai that meets your personal requirements.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/real-estate-purchase.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/immobilienkauf.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                         <p class="mb-0">Our team of experts can assist you in searching, selecting and hiring qualified personnel for your company in Dubai to build the right talent pool for your company.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruitment.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruiting.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -181,11 +181,14 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-10.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Health Insurance</h5>
-                        <p class="mb-0">Our insurance experts will guide you in choosing the right health insurance coverage in Dubai, ensuring all your medical needs are covered.</p>
+                        <h5 class="mb-3">Relocation Services</h5>
+                            <p class="mb-0">We assist you in organizing your relocation to Dubai,
+                                including the search for suitable accommodation,
+                                the organization of transport and logistics, and registration with local authorities and
+                                facilities.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/health-insurance.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/logistik.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>

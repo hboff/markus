@@ -15,9 +15,9 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Links</h4>
                 <a class="btn btn-link no-hover" href="contact.php">Contact</a>
-                <a class="btn btn-link no-hover" href="services.php">Our Services</a>
-                <a class="btn btn-link no-hover" href="privacy-policy.php">Privacy Policy</a>
-                <a class="btn btn-link no-hover" href="imprint.php">Imprint</a>
+                <a class="btn btn-link no-hover" href="dienstleistungen.php">Our Services</a>
+                <a class="btn btn-link no-hover" href="datenschutzerklaerung.php">Privacy Policy</a>
+                <a class="btn btn-link no-hover" href="impressum.php">Impressum</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Opening Hours</h4>
