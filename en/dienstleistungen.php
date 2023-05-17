@@ -32,7 +32,7 @@
             <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-5.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Aufenthaltsgenehmigung / Visum</h4>
                             <p class="mb-0">Wir unterstützen Sie bei der Beantragung des passenden Visums für Dubai, um
@@ -40,7 +40,7 @@
                                 Visumerhalt zu ermöglichen.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/visum.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visum.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                   <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-6.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Unternehmensgründung</h4>
                             <p class="mb-0">Unser Team hilft Ihnen bei der Gründung Ihrer Firma in Dubai, indem es Sie
@@ -57,7 +57,7 @@
                                 Auswahl der richtigen Rechtsform bis hin zur Registrierung und Geschäftsplanung.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/unternehmensgruendung.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/unternehmensgruendung.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-7.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Kontoeröffung</h4>
                             <p class="mb-0">Wir bieten maßgeschneiderte Lösungen für die Eröffnung von Bankkonten in
@@ -74,7 +74,7 @@
                                 Prozess, um Ihren individuellen Bedürfnissen gerecht zu werden.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/kontoeroeffnung.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/kontoeroeffnung.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-8.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Immobilienkauf</h4>
                             <p class="mb-0">Unsere erfahrenen Immobilienexperten unterstützen Sie bei der Suche, Auswahl
@@ -91,7 +91,7 @@
                                 Dubai, die Ihren persönlichen Anforderungen entspricht.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/immobilienkauf.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/immobilienkauf.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-9.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Personalvermittlung</h4>
                             <p class="mb-0">Unser Expertenteam kann Sie bei der Suche, Auswahl und Einstellung von
@@ -108,7 +108,7 @@
                                 Dubai unterstützen, um den richtigen Talentpool für Ihr Unternehmen aufzubauen.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/recruiting.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruiting.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                            <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-10.png" alt="Icon">
                         </div>
                         <h5 class="mb-3">Umzugsservice</h4>
                             <p class="mb-0">Wir unterstützen Sie bei der Organisation Ihres Umzugs nach Dubai,
@@ -126,7 +126,7 @@
                                 Einrichtungen.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="/logistik.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/logistik.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>

@@ -14,7 +14,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-5">Umzugsservice</h1>
+                <h1 class="display-5 mb-5">Logistics</h1>
 
             </div>
                 <p>As experienced business consultants in Dubai, Pantheon Elite has comprehensive knowledge of the local market and business culture, enabling us to provide our clients with a seamless relocation and successful business expansion. We offer our clients a wide range of services, ranging from packing and transporting personal items to warehousing goods and complying with customs regulations.</p>
