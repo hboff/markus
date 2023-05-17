@@ -420,7 +420,7 @@
                     <div class="team-content">                        
                     <h5>Dr. Dmitrij Balliet</h5>
                     <p class="text-primary">Partner</p>
-                    <p><b>Specialty:</b> Real Estate</p>
+                    <p><b>Specialty:</b> International Tax Law</p>
                     <p><b>Languages:</b> Russian, German, English</p>
                     <ul class="team-social">
                         <li><a                        class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>

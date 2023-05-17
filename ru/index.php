@@ -329,8 +329,8 @@
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Our Projects</p>
-                <h1 class="display-5 mb-5">Some of our completed projects</h1>
+                <p class="fs-5 fw-medium text-primary">Наши проекты</p>
+                <h1 class="display-5 mb-5">Некоторые из наших завершенных проектов</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
@@ -338,8 +338,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-1.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Tech Startups</a>
-                        <span>We supported a tech startup in applying for a business visa, setting up a company, and opening an account while facilitating the hiring of professionals for the company.</span>
+                        <a class="d-block h5" href="">Технологические стартапы</a>
+                        <span>Мы помогли технологическому стартапу в подаче заявки на бизнес-визу, регистрации компании и открытии счета, а также облегчили найм специалистов для компании.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -347,8 +347,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-2.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Luxury Real Estate</a>
-                        <span>Our team assisted an international investor in applying for a property investor visa and acquiring a luxury property in Dubai, including financing and account opening.</span>
+                        <a class="d-block h5" href="">Люксовая недвижимость</a>
+                        <span>Наша команда помогла международному инвестору в получении визы инвестора в недвижимость и приобретении роскошной недвижимости в Дубае, включая финансирование и открытие счета.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -356,8 +356,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-3.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Family Business</a>
-                        <span>Our team supported a family business in applying for family visas, searching for suitable apartments and schools, and recruiting local staff for the move to Dubai.</span>
+                        <a class="d-block h5" href="">Семейный бизнес</a>
+                        <span>Наша команда помогла семейному бизнесу в получении семейных виз, поиске подходящих квартир и школ, а также найме местного персонала для переезда в Дубай.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -365,8 +365,8 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-4.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">E-Commerce Company</a>
-                        <span>Our team assisted an e-commerce company in setting up a branch in Dubai, applying for work visas for the team, and successfully opening an account with a local bank.</span>
+                        <a class="d-block h5" href="">Электронная коммерция</a>
+                        <span>Наша команда помогла компании в области электронной коммерции в открытии филиала в Дубае, подаче заявок на рабочие визы для команды и успешном открытии счета в местном банке.</span>
                     </div>
                 </div>
             </div>
@@ -377,60 +377,77 @@
     <!-- Project End -->
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Наша команда</p>
-                <h1 class="display-5 mb-5">Наши эксперты - Ваши видения</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="">
-                        <h5>Markus Maier</h5>
-                        <span class="text-primary">Founder & CEO</span>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="">
-                        <h5>Andreas Schlegel</h5>
-                        <span class="text-primary">Founder</span>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="">
-                        <h5>Dr. Dimitri llet</h5>
-                        <span class="text-primary">Fachanwalt für Steuerrecht</span>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/oskar.jpg" alt="">
-                        <h5>Oskar Lohse</h5>
-                        <span class="text-primary">CTO</span>
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="fs-5 fw-medium text-primary">Наша Команда</p>
+            <h1 class="display-5 mb-5">Наши эксперты - Ваши видения</h1>
         </div>
-    </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">
+                        <h5>Маркус Майер</h5>
+                        <p class="text-primary">Основатель & CEO</p>
+                        <p ><b>Специализация:</b> Международные банковские отношения</p>
+                        <p><b>Языки:</b> Русский, Немецкий, Английский</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">                        
+                    <h5>Андреас Шлегель</h5>
+                    <p class="text-primary">Основатель</p>
+                    <p><b>Специализация:</b> Недвижимость</p>
+                    <p><b>Языки:</b> Русский, Немецкий</p>
+                    <ul class="team-social">
+                        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+<div class="team-content">                        
+<h5>Д-р Дмитрий Баллиет</h5>
+<p class="text-primary">Партнер</p>
+<p><b>Специализация:</b> Международное налоговое право</p>
+<p><b>Языки:</b> Русский, Немецкий, Английский</p>
+<ul class="team-social">
+    <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+    <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+</ul> 
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+<div class="team-item rounded overflow-hidden pb-4">
+    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+    <div class="team-content">                        
+    <h5>Матиас Крюгер</h5>
+    <p class="text-primary">Партнер</p>
+    <p><b>Специализация:</b>Недвижимость</p>
+    <p><b>Языки:</b>Немецкий, Английский</p>
+    <ul class="team-social">
+        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
     <!-- Team End -->
 
 <?php include '../kontakt-incl.php';?>
