@@ -71,7 +71,7 @@
                         <div class="team-content">                        
                         <h5>Mathias Krüger</h5>
                         <p class="text-primary">Partner</p>
-                        <p><b>Fachgebiet: </b>Immobilien</p>
+                        <p><b>Fachgebiet: </b>Marketing, Immobilien</p>
                         <p><b>Sprachen: </b>Deutsch, Englisch</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
