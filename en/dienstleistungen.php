@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 <style>
         .service-item .service-text {
             flex-grow: 1;
@@ -8,7 +8,7 @@
         }
         </style>
 <body>
-    <?php include 'navbar-en.php';?>
+    <?php include '../navbar-en.php';?>
 
     <!-- Carousel Start -->
     <div>
@@ -137,9 +137,9 @@
 <!-- Service End -->
 
 
-    <?php include 'kontakt-incl.php';?>
+    <?php include '../kontakt-incl.php';?>
 
-    <?php include 'footer-en.php';?>
+    <?php include '../footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->

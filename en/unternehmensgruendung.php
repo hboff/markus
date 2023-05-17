@@ -1,7 +1,7 @@
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 
 <body>
-    <?php include 'navbar-en.php';?>
+    <?php include '../navbar-en.php';?>
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
@@ -36,9 +36,9 @@
     <!-- Team End -->
 
 
- <?php include 'kontakt-incl.php';?>
+ <?php include '../kontakt-incl.php';?>
 
-<?php include 'footer-en.php';?>
+<?php include '../footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->

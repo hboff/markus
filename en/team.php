@@ -1,7 +1,7 @@
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 
 <body>
-    <?php include 'navbar.php';?>
+    <?php include '../navbar.php';?>
 
 
     <!-- Carousel Start -->
@@ -103,9 +103,9 @@
     <!-- Team End -->
  
 
-    <?php include 'kontakt-incl.php';?>
+    <?php include '../kontakt-incl.php';?>
     
-    <?php include 'footer.php';?>
+    <?php include '../footer.php';?>
 
 
     <!-- JavaScript Libraries -->
