@@ -85,10 +85,10 @@
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">
-                            <h5>Daniel</h5>
+                            <h5>Daniel Beckford</h5>
                             <p class="text-primary">Partner</p>
                             <p ><b>Fachgebiet:</b>Immobilien</p>
-                            <p><b>Sprachen:</b>Deutsch, Englisch, Französisch, Niederländisch, Türkisch</p>
+                            <p><b>Sprachen:</b>Englisch, Deutsch, Französisch, Niederländisch, Türkisch</p>
                             <ul class="team-social">
                                 <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                                 <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
