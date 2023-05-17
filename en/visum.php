@@ -18,7 +18,7 @@
         <div class="col-lg-10">
             <div class="px-5 py-5">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <h1 class="display-5 mb-5">Visum</h1>
+                    <h1 class="display-5 mb-5">Visa</h1>
                 </div>
 
                 <div class="col-md-8 mx-auto">
