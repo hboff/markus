@@ -409,11 +409,16 @@
 
     <!-- Team Start -->
 <style>
+    .team-item {
+        display: flex;
+        flex-direction: column;
+        min-height: 600px; /* Adjust this value based on your needs */
+    }
     .team-content {
+        flex-grow: 1;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100%; /* This ensures that the content takes up the full height of the container */
     }
     .team-social {
         margin-top: auto; /* This pushes the social links to the bottom */
