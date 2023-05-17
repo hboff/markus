@@ -38,7 +38,7 @@
                             <p class="mb-0">We assist you in applying for the appropriate visa for Dubai, to ensure a smooth and fast visa acquisition.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visa.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/visum.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                             <p class="mb-0">Our team helps you in setting up your company in Dubai by guiding you through the entire process, from choosing the right legal form to registration and business planning.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/companyformation.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/unternehmensgruendung.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             process to meet your individual needs.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/accountopening.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/kontoeroeffnung.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                                 Dubai that meets your personal requirements.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/realestatepurchase.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/immobilienkauf.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                                 Dubai, building the right talent pool for your business.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruitment.php">Read More<i
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/en/recruiting.php">Read More<i
                                 class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
