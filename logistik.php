@@ -14,7 +14,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-5">Umnzugsservice</h1>
+                <h1 class="display-5 mb-5">Umzugsservice</h1>
 
             </div>
             <p>Als erfahrene Geschäftsberater in Dubai verfügt Pantheon Elite über umfassende Kenntnisse
