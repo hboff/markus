@@ -22,7 +22,7 @@
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">
                             <h5>Маркус Майер</h5>
                             <p class="text-primary">Основатель & CEO</p>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">                        
                         <h5>Андреас Шлегель</h5>
                         <p class="text-primary">Основатель</p>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">                        
                         <h5>Доктор Дмитрий Баллиет</h5>
                         <p class="text-primary">Партнер</p>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">                        
                         <h5>Матиас Крюгер</h5>
                         <p class="text-primary">Партнер</p>
@@ -84,7 +84,7 @@
             <div class="row g-4 my-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">
                             <h5>Даниэль Бекфорд</h5>
                             <p class="text-primary">Партнер</p>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="img/oskar.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/oskar.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">                        
                         <h5>Оскар Лозе</h5>
                         <p class="text-primary">Партнер</p>
