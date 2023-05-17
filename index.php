@@ -408,70 +408,67 @@
     <!-- Project End -->
 
     <!-- Team Start -->
+<style>
+    .team-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; /* This ensures that the content takes up the full height of the container */
+    }
+    .team-social {
+        margin-top: auto; /* This pushes the social links to the bottom */
+    }
+</style>
 
-<div class="card-deck">
-    <div class="card">
-        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
-        <div class="card-body">
-            <h5 class="card-title">Markus Maier</h5>
-            <p class="text-primary">Founder & CEO</p>
-            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="fs-5 fw-medium text-primary">Unser Team</p>
+            <h1 class="display-5 mb-5">Unsere Experten - Ihre Visionen</h1>
         </div>
-        <div class="card-footer">
-            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-            <ul class="team-social">
-                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div>
-    </div>
-        <div class="card">
-        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
-        <div class="card-body">
-            <h5 class="card-title">Markus Maier</h5>
-            <p class="text-primary">Founder & CEO</p>
-            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-        </div>
-        <div class="card-footer">
-            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-            <ul class="team-social">
-                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div>
-    </div>
-        <div class="card">
-        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
-        <div class="card-body">
-            <h5 class="card-title">Markus Maier</h5>
-            <p class="text-primary">Founder & CEO</p>
-            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-        </div>
-        <div class="card-footer">
-            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-            <ul class="team-social">
-                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">
+                        <div>
+                            <h5>Markus Maier</h5>
+                            <p class="text-primary">Founder & CEO</p>
+                            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+                            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+                        </div>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded overflow-hidden pb-4">
+                    <img class="img-fluid mb-4" src="img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                    <div class="team-content">
+                        <div>
+                            <h5>Markus Maier</h5>
+                            <p class="text-primary">Founder & CEO</p>
+                            <p><b>Fachgebiet:</b> internationale BankenbeziehungBankenbeziehungBankenbeziehung</p>
+                            <p><b>Sprachen:</b> Russisch, Deutsch, EnglischBankenbeziehungBankenbeziehungBankenbeziehung</p>
+                        </div>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat this block for each team member -->
         </div>
     </div>
-        <div class="card">
-        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
-        <div class="card-body">
-            <h5 class="card-title">Markus Maier</h5>
-            <p class="text-primary">Founder & CEO</p>
-            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
-        </div>
-        <div class="card-footer">
-            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
-            <ul class="team-social">
-                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- Wiederholen Sie diesen Block für jedes Teammitglied -->
 </div>
+
+
+
+
 
     <div class="container-xxl py-5">
         <div class="container">
