@@ -19,7 +19,7 @@
 
 <!-- Service Start -->
 <div class="container-xxl py-5">
-    <div class="container">
+    <div class="container py-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h1 class="display-5 mb-5">Unsere Dienstleistungen</h1>
         </div>
