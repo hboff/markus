@@ -3,7 +3,6 @@
 <body>
     <?php include '../navbar-ru.php';?>
 
-
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
         <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/kontoeroeffnung.jpg" alt="Dubai"
