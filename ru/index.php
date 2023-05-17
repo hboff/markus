@@ -435,7 +435,7 @@
 
 <?php include '../kontakt-incl.php';?>
 
-<?php include '../footer.php';?>
+<?php include '../footer-ru.php';?>
 
 
     <!-- JavaScript Libraries -->

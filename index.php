@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;  /*Optional: Sie können diese Zeile entfernen, wenn Sie keine feste Höhe wünschen.*/
+    height: 100%; 
 }
 .team-content {
     flex: 1;
@@ -408,6 +408,70 @@
     <!-- Project End -->
 
     <!-- Team Start -->
+
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">Markus Maier</h5>
+            <p class="text-primary">Founder & CEO</p>
+            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+        </div>
+        <div class="card-footer">
+            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+            <ul class="team-social">
+                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="card">
+        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">Markus Maier</h5>
+            <p class="text-primary">Founder & CEO</p>
+            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+        </div>
+        <div class="card-footer">
+            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+            <ul class="team-social">
+                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="card">
+        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">Markus Maier</h5>
+            <p class="text-primary">Founder & CEO</p>
+            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+        </div>
+        <div class="card-footer">
+            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+            <ul class="team-social">
+                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="card">
+        <img class="card-img-top" src="img/markus.jpeg" alt="Markus Maier" style="width: 100%; height: 400px; object-fit: cover;">
+        <div class="card-body">
+            <h5 class="card-title">Markus Maier</h5>
+            <p class="text-primary">Founder & CEO</p>
+            <p><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
+        </div>
+        <div class="card-footer">
+            <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
+            <ul class="team-social">
+                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Wiederholen Sie diesen Block für jedes Teammitglied -->
+</div>
 
     <div class="container-xxl py-5">
         <div class="container">
