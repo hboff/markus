@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style=" backdrop-filter: blur(25px) invert(.2);  background-color: rgba(255, 255, 255, .15);">
     <div class="container">
-        <a class="navbar-brand" href="https://pantheon-elite.ae"><span style="color: #5e9693;">Pantheon</span><span
+        <a class="navbar-brand" href="https://pantheon-elite.ae/en/index.php"><span style="color: #5e9693;">Pantheon</span><span
                 style="color: #fff;">Elite</span></a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
             data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -11,13 +11,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="services.php">Services</a>
+                    <a class="nav-link" href="en/services.php">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="team.php">Team</a>
+                    <a class="nav-link" href="en/team.php">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="en/contact.php">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex flex-row">
@@ -32,8 +32,8 @@
                     </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="https://pantheon-elite.ae/en/index.php">
-                        &#127468;&#127463; 
+                    <a class="nav-link" href="https://pantheon-elite.ae/">
+                        &#x1F1E9;&#x1F1EA; 
                     </a>
                 </li><li class="nav-item me-3 me-lg-0">
                     <a class="nav-link" href="https://pantheon-elite.ae/ru/index.php">

@@ -1,7 +1,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style=" backdrop-filter: blur(25px) invert(.2);  background-color: rgba(255, 255, 255, .15);">
         <div class="container">
-            <a class="navbar-brand" href="https://pantheon-elite.ae"><span style="color: #5e9693;">Pantheon</span><span
+            <a class="navbar-brand" href="https://pantheon-elite.ae/ru/index.php"><span style="color: #5e9693;">Pantheon</span><span
                     style="color: #fff;">Elite</span></a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                 data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
