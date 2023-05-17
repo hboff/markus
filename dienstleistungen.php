@@ -11,7 +11,7 @@
     <?php include 'navbar.php';?>
 
     <!-- Carousel Start -->
-    <div>
+    <div class="mb-5">
         <img src="img/kontoeroeffnung.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover; object-position: center">
     </div>
@@ -21,8 +21,7 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-5 mb-5 py-5">Unsere Dienstleistungen</h1>
-
+            <h1 class="display-5 mb-5">Unsere Dienstleistungen</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
