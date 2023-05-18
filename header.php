@@ -36,17 +36,7 @@
 
     <!-- Template Stylesheet -->
     <link href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/css/style.css" rel="stylesheet">
-<script>
-    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
-    window.onload = function() {
-        if(iOS){
-            document.querySelector('.navbar').style.backgroundColor = 'rgba(0, 255, 0, .1)'; // Zum Beispiel, grün für iOS
-        }
-        else{
-            document.querySelector('.navbar').style.backgroundColor = 'rgba(255, 255, 255, .15)'; // Ihre aktuelle Farbe
-        }
-    }
     <style>
 
         .custom-row {
@@ -76,4 +66,16 @@
 
 }
     </style>
+    <script>
+    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+    window.onload = function() {
+        if(iOS){
+            document.querySelector('.navbar').style.backgroundColor = 'rgba(255, 255, 255, 1)'; // Zum Beispiel, grün für iOS
+        }
+        else{
+            document.querySelector('.navbar').style.backgroundColor = 'rgba(255, 255, 255, .15)'; // Ihre aktuelle Farbe
+        }
+    }
+</script>
 </head>
