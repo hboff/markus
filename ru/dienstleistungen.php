@@ -28,7 +28,7 @@
 
         </div>
         <div class="row g-4">
-            <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-4 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item position-relative h-100 d-flex flex-column">
                   <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-lg-4 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-4 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-lg-4 col-md-6 col-sm-2 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item position-relative h-100 d-flex flex-column">
                     <div class="service-text rounded p-5">
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
