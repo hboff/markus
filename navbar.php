@@ -1,22 +1,19 @@
-    <!-- Navbar -->
 <style>
-    nav.navbar {
-        position: relative;
-    }
-    nav.navbar::after {
-        content: "";
+    .navbar-bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(25px) invert(.2);
+        background-color: rgba(255, 255, 255, .15);
         z-index: -1;
     }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0 position-relative">
+    <div class="navbar-bg">
+        
         <div class="container">
             <a class="navbar-brand" href="https://pantheon-elite.ae"><span style="color: #5e9693;">Pantheon</span><span
                     style="color: #fff;">Elite</span></a>
@@ -59,6 +56,7 @@
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
     </nav>
 <!-- Navbar -->
