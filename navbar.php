@@ -1,6 +1,5 @@
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" 
-style="backdrop-filter: blur(25px) invert(.2);  background-image: url('https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1272&h=848'); background-size: cover;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style=" backdrop-filter: blur(25px) invert(.2);  background-color: rgba(255, 255, 255, .15);">
         <div class="container">
             <a class="navbar-brand" href="https://pantheon-elite.ae"><span style="color: #5e9693;">Pantheon</span><span
                     style="color: #fff;">Elite</span></a>
@@ -44,5 +43,16 @@ style="backdrop-filter: blur(25px) invert(.2);  background-image: url('https://i
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav><script>
+    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+    window.onload = function() {
+        if(iOS){
+            document.querySelector('.navbar').style.backgroundColor = 'rgba(0, 255, 0, .15)'; // Zum Beispiel, grün für iOS
+        }
+        else{
+            document.querySelector('.navbar').style.backgroundColor = 'rgba(255, 255, 255, .15)'; // Ihre aktuelle Farbe
+        }
+    }
+</script>
 <!-- Navbar -->
