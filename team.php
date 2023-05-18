@@ -12,8 +12,10 @@
     <!-- Carousel End -->
 
     <!-- Team Start -->
-<div class="container-xxl py-5">
-    <div class="container">
+<div class="container-fluid">
+    <div class="row justify-content-center">
+                <div class="col-lg-10">
+            <div class="px-5 py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-5 my-5">Unsere Experten - Ihre Visionen</h1>
             </div>
@@ -108,7 +110,9 @@
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         </div>
-
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Team End -->
