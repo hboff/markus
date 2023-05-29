@@ -125,7 +125,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Основание компании</h4>
+                        <h5 class="mb-3">регистрация компаний </h4>
                             <p class="mb-0">Наша команда поможет вам создать вашу компанию в Дубае, сопровождая вас на всем пути от выбора правильной формы собственности до регистрации и планирования бизнеса.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
