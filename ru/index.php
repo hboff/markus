@@ -309,8 +309,8 @@
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-4.png" alt="Icon">
                     </div>
-                    <h5 class="mb-3">Поддержка</h5>
-                    <p class="mb-0">Наш надежный служба поддержки работает круглосуточно, чтобы ответить на ваши вопросы, чтобы вы могли сосредоточиться на главном.</p>
+                    <h5 class="mb-3">Профессиональное сопровождение</h5>
+                    <p class="mb-0">Как эксперты в своей отрасли, мы сопроводим ваш проект профессионально и сделаем этот процесс максимально простым и понятным для вас.</p>
                 </div>
             </div>
         </div>
@@ -327,7 +327,7 @@
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
                 <p class="fs-5 fw-medium text-primary">Наши проекты</p>
-                <h1 class="display-5 mb-5">Некоторые из наших завершенных проектов</h1>
+                <h1 class="display-5 mb-5">Некоторые из наших проектов</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
