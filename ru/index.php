@@ -292,7 +292,7 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-2.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Профессиональная команда</h5>
-                    <p class="mb-0">Наша преданная и опытная команда состоит из экспертов различных областей, чтобы вместе реализовать ваши цели.</p>
+                    <p class="mb-0">Наша команда экспертов различных областей обеспечит надежную и быструю реализацию ваших проектов в Дубае</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
@@ -300,8 +300,8 @@
                     <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-3.png" alt="Icon">
                     </div>
-                    <h5 class="mb-3">Справедливые цены</h5>
-                    <p class="mb-0">Мы ценим прозрачность и предлагаем конкурентоспособные цены без компромиссов.</p>
+                    <h5 class="mb-3">Доступные цены</h5>
+                    <p class="mb-0">Предлагаем гибкую ценовую политику для проектов любого формата и бесплатную консультацию.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
@@ -344,7 +344,7 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/project-2.jpg" alt="">
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Люксовая недвижимость</a>
+                        <a class="d-block h5" href="">Элитная недвижимость</a>
                         <span>Наша команда помогла международному инвестору в получении визы инвестора в недвижимость и приобретении роскошной недвижимости в Дубае, включая финансирование и открытие счета.</span>
                     </div>
                 </div>

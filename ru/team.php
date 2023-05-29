@@ -84,7 +84,7 @@
             <div class="row g-4 my-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
-                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/daniel.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="team-content">
                             <h5>Даниэль Бекфорд</h5>
                             <p class="text-primary">Партнер</p>
