@@ -125,7 +125,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">регистрация компаний </h4>
+                        <h5 class="mb-3">Регистрация компаний </h4>
                             <p class="mb-0">Наша команда поможет вам создать вашу компанию в Дубае, сопровождая вас на всем пути от выбора правильной формы собственности до регистрации и планирования бизнеса.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
@@ -301,7 +301,7 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-3.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Доступные цены</h5>
-                    <p class="mb-0">Предлагаем гибкую ценовую политику для проектов любого формата и бесплатную консультацию.</p>
+                    <p class="mb-0">Предлагаем гибкую ценовую политику для проектов любого формата и бесплатную консультацию</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
@@ -310,7 +310,7 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-4.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Профессиональное сопровождение</h5>
-                    <p class="mb-0">Как эксперты в своей отрасли, мы сопроводим ваш проект профессионально и сделаем этот процесс максимально простым и понятным для вас.</p>
+                    <p class="mb-0">Как эксперты в своей отрасли, мы сопроводим ваш проект профессионально и сделаем этот процесс максимально простым и понятным для вас</p>
                 </div>
             </div>
         </div>
