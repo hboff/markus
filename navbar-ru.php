@@ -14,7 +14,7 @@
                         <a class="nav-link" href="/ru/dienstleistungen.php">Услуги</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/ru/team.php">Команда</a>
+                        <a class="nav-link" href="/ru/team.php">О нас</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/ru/contact.php">Контакт</a>

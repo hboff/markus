@@ -84,7 +84,7 @@
                     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
                     <a class="btn  rounded-pill py-3 px-5 animated slideInLeft" style="background-color: #0064b2; color: #fff;" href=""
-                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Получить консультацию сейчас</a>
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oskarkelohse/erstbesprechung-immobilie-dubai'});return false;">Получить консультацию</a>
                     <!-- Calendly link widget end -->
                 </div>
             </div>
@@ -111,7 +111,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-5.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Разрешение на проживание / Виза</h4>
+                        <h5 class="mb-3">Вид на жительство / оформление виз</h4>
                             <p class="mb-0">Мы поможем вам подать заявление на подходящую визу в Дубае, чтобы обеспечить быстрое и беспроблемное получение визы.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
@@ -378,7 +378,7 @@
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="fs-5 fw-medium text-primary">Наша Команда</p>
-            <h1 class="display-5 mb-5">Наши эксперты - Ваши видения</h1>
+            <h1 class="display-5 mb-5">Наши эксперты</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

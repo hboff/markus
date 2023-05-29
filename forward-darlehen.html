@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Forward Darlehen Rechner</h2>
+
+    <p>Objektwert: <input type="range" id="objektwert" min="1" max="1000000" value="500000"></p>
+    <p>Darlehensbetrag: <input type="range" id="darlehensbetrag" min="1" max="1000000" value="500000"></p>
+    <p>Sollzinsbindung: <input type="range" id="sollzinsbindung" min="1" max="30" value="15"></p>
+    <p>Anfänglicher Tilgungssatz: <input type="range" id="tilgungssatz" min="1" max="10" value="2"></p>
+
+    <button onclick="berechneDarlehen()">Berechnen</button>
+
+    <p id="ergebnis"></p>
+
+    <script>
+        function berechneDarlehen() {
+            var objektwert = document.getElementById("objektwert").value;
+            var darlehensbetrag = document.getElementById("darlehensbetrag").value;
+            var sollzinsbindung = document.getElementById("sollzinsbindung").value;
+            var tilgungssatz = document.getElementById("tilgungssatz").value;
+
+            var monatlicheRate = darlehensbetrag * (sollzinsbindung / 100) / 12 + darlehensbetrag * (tilgungssatz / 100) / 12;
+
+            document.getElementById("ergebnis").innerHTML = "Die monatliche Rate beträgt: " + monatlicheRate.toFixed(2);
+        }
+    </script>
+
+</body>
+
+</html>
