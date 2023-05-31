@@ -1,32 +1,134 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <title>Forward Darlehen Rechner</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
 <body>
-
-    <h2>Forward Darlehen Rechner</h2>
-
-    <p>Objektwert: <input type="range" id="objektwert" min="1" max="1000000" value="500000"></p>
-    <p>Darlehensbetrag: <input type="range" id="darlehensbetrag" min="1" max="1000000" value="500000"></p>
-    <p>Sollzinsbindung: <input type="range" id="sollzinsbindung" min="1" max="30" value="15"></p>
-    <p>Anfänglicher Tilgungssatz: <input type="range" id="tilgungssatz" min="1" max="10" value="2"></p>
-
-    <button onclick="berechneDarlehen()">Berechnen</button>
-
+    <input type="number" id="objektwertInput" value="235000" min="0"
+        oninput="updateInput('objektwert', this.value); berechneDarlehen(); berechneJahreswerte();" />
+    <input type="range" id="objektwert" value="235000" min="0" max="1000000" step="5000"
+        oninput="updateInput('objektwertInput', this.value); berechneDarlehen(); berechneJahreswerte();" />
+    <input type="number" id="darlehensbetragInput" value="200000" min="0"
+        oninput="updateInput('darlehensbetrag', this.value); berechneDarlehen(); berechneJahreswerte();" />
+    <input type="range" id="darlehensbetrag" value="200000" min="0" max="1000000" step="5000"
+        oninput="updateInput('darlehensbetragInput', this.value); berechneDarlehen(); berechneJahreswerte();" />
+    <select id="sollzinsbindung" oninput="berechneDarlehen(); berechneJahreswerte();">
+        <option value="5">5</option>
+        <option value="8">8</option>
+        <option value="10" selected>10</option>
+        <option value="12">12</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+        <option value="30">30</option>
+    </select>
+    <input type="number" id="tilgungssatzInput" value="2" min="0" max="100"
+        oninput="updateInput('tilgungssatz', this.value); berechneDarlehen(); berechneJahreswerte();" />
+    <input type="range" id="tilgungssatz" value="2" min="0" max="100"
+        oninput="updateInput('tilgungssatzInput', this.value); berechneDarlehen(); berechneJahreswerte();" />
     <p id="ergebnis"></p>
+    <input type="number" id="jahrInput" min="1" max="10" value="1"
+        oninput="updateInput('jahr', this.value); berechneJahreswerte();" />
+    <input type="range" id="jahr" min="1" max="10" value="1"
+        oninput="updateInput('jahrInput', this.value); berechneJahreswerte();" />
+    <p id="jahreswerte"></p>
+    <canvas id="tortendiagramm"></canvas>
 
     <script>
-        function berechneDarlehen() {
-            var objektwert = document.getElementById("objektwert").value;
-            var darlehensbetrag = document.getElementById("darlehensbetrag").value;
-            var sollzinsbindung = document.getElementById("sollzinsbindung").value;
-            var tilgungssatz = document.getElementById("tilgungssatz").value;
+        var chart;
 
-            var monatlicheRate = darlehensbetrag * (sollzinsbindung / 100) / 12 + darlehensbetrag * (tilgungssatz / 100) / 12;
-
-            document.getElementById("ergebnis").innerHTML = "Die monatliche Rate beträgt: " + monatlicheRate.toFixed(2);
+        function updateInput(id, value) {
+            document.getElementById(id).value = value;
         }
-    </script>
 
+        function berechneDarlehen() {
+            var objektwert = parseFloat(document.getElementById("objektwertInput").value);
+            var darlehensbetrag = parseFloat(document.getElementById("darlehensbetragInput").value);
+            var sollzinsbindung = parseInt(document.getElementById("sollzinsbindung").value);
+            var tilgungssatz = parseFloat(document.getElementById("tilgungssatzInput").value) / 100;
+
+            var monatlicherZins = darlehensbetrag * (4.0 / 100) / 12;
+            var monatlicheTilgung = monatlicherZins / (1 - Math.pow(1 + (4.0 / 100 / 12), -sollzinsbindung * 12));
+            var restschuld = darlehensbetrag;
+            var gezahlteZinsen = 0;
+            for (var i = 0; i < sollzinsbindung * 12; i++) {
+                gezahlteZinsen += restschuld * (4.0 / 100) / 12;
+                restschuld -= monatlicheTilgung - restschuld * (4.0 / 100) / 12;
+                if (restschuld <= 0) {
+                    restschuld = 0;
+                    break;
+                }
+            }
+
+            var getilgterBetrag = darlehensbetrag - restschuld;
+            var gesamtlaufzeit = sollzinsbindung + restschuld / (12 * monatlicheTilgung);
+
+            var ergebnis = 'Ihr Zinssatz und Ihre Monatsrate:<br/>' +
+                'effektiver Jahreszins p.a.: 4.06%<br/>' +
+                'gebundener Sollzins p.a.: 4.00%<br/>' +
+                'monatliche Rate: ' + monatlicheTilgung.toFixed(2) + '€<br/>' +
+                'anfänglicher Tilgungssatz: ' + (monatlicheTilgung / darlehensbetrag * 12 * 100).toFixed(2) + '%<br/><br/>' +
+                'Ihre Eckdaten nach der Zinsbindung von ' + sollzinsbindung + ' Jahren:<br/>' +
+                'Restschuld: ' + restschuld.toFixed(2) + '€<br/>' +
+                'getilgter Betrag: ' + getilgterBetrag.toFixed(2) + '€<br/>' +
+                'gezahlte Zinsen: ' + gezahlteZinsen.toFixed(2) + '€<br/>' +
+                'Zeit bis zur Abzahlung des Darlehens bei gleichbleibendem Sollzins: ' + gesamtlaufzeit.toFixed(2) + ' Jahre';
+            document.getElementById('ergebnis').innerHTML = ergebnis;
+        }
+
+        function berechneJahreswerte() {
+            var jahr = parseInt(document.getElementById("jahrInput").value);
+            var darlehensbetrag = parseFloat(document.getElementById("darlehensbetragInput").value);
+            var monatlicherZins = darlehensbetrag * (4.0 / 100) / 12;
+            var monatlicheTilgung = monatlicherZins / (1 - Math.pow(1 + (4.0 / 100 / 12), -10 * 12));
+            var restschuld = darlehensbetrag;
+            var gezahlteZinsen = 0;
+            for (var i = 0; i < jahr * 12; i++) {
+                gezahlteZinsen += restschuld * (4.0 / 100) / 12;
+                restschuld -= monatlicheTilgung - restschuld * (4.0 / 100) / 12;
+                if (restschuld <= 0) {
+                    restschuld = 0;
+                    break;
+                }
+            }
+
+            var jahreszinsen = gezahlteZinsen;
+            var tilgung = darlehensbetrag - restschuld;
+
+            var jahreswerte = 'Jahreswerte:<br/>' +
+                'Zinsen: ' + jahreszinsen.toFixed(2) + '€<br/>' +
+                'Tilgung: ' + tilgung.toFixed(2) + '€<br/>' +
+                'Restschuld zum Periodenende: ' + restschuld.toFixed(2) + '€';
+            document.getElementById('jahreswerte').innerHTML = jahreswerte;
+
+            if (chart) {
+                chart.destroy();
+            }
+
+            var ctx = document.getElementById('tortendiagramm').getContext('2d');
+            chart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Tilgung', 'Zinsen'],
+                    datasets: [{
+                        data: [tilgung, jahreszinsen],
+                        backgroundColor: ['blue', 'gray']
+                    }]
+                },
+                options: {
+                    responsive: false,
+                }
+            });
+        }
+
+        window.onload = function () {
+            berechneDarlehen();
+            berechneJahreswerte();
+        };
+    </script>
 </body>
 
 </html>
