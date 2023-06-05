@@ -112,6 +112,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/adriana.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover; object-position: top;">
+                        <div class="team-content">                        
+                        <h5>Adriana Myschor</h5>
+                        <p class="text-primary">Partner</p>
+                        <p><b>Fachgebiet:</b> Immobilien</p>
+                        <p><b>Sprachen:</b> Deutsch, Englisch, Polnisch</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
