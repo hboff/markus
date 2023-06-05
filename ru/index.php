@@ -115,7 +115,7 @@
                             <p class="mb-0">Мы поможем вам подать заявление на подходящую визу в Дубае, чтобы обеспечить быстрое и беспроблемное получение визы.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/visum.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/visum.php">Более подробная информация<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                             <p class="mb-0">Наша команда поможет вам создать вашу компанию в Дубае, сопровождая вас на всем пути от выбора правильной формы собственности до регистрации и планирования бизнеса.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/unternehmensgruendung.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/unternehmensgruendung.php">Более подробная информация<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                             <p class="mb-0">Мы предлагаем индивидуальные решения для открытия банковских счетов в Дубае и сопровождаем вас на всем пути, чтобы удовлетворить ваши индивидуальные потребности.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/kontoeroeffnung.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/kontoeroeffnung.php">Более подробная информация<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                             <p class="mb-0">Наши опытные специалисты по недвижимости помогут вам в поиске, выборе и покупке идеальной недвижимости в Дубае, которая соответствует вашим личным требованиям.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/immobilienkauf.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/immobilienkauf.php">Более подробная информация<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                             <p class="mb-0">Наша команда экспертов может помочь вам в поиске, выборе и найме квалифицированного персонала для вашей компании в Дубае, чтобы создать правильный резерв талантов для вашей компании.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/recruiting.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/recruiting.php">Более подробная информация<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
 
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
-                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/logistik.php">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        <a class="text-primary fw-medium" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/ru/logistik.php">Более подробная информация<i class="bi bi-chevron-double-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -213,8 +213,8 @@
                                     <div class="line h-100"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Шаг 1: Определить потребность в консультациях</h5>
-                                    <p class="lead text-muted pb-3">Определите вашу потребность в консультационных услугах в Дубае.</p>
+                                    <h5 class="text-dark">Шаг 1: Какой вид консалтинга требуется именно Вам?</h5>
+                                    <p class="lead text-muted pb-3">Определите ваш запрос в консультационных услугах в Дубае.</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-1">
@@ -223,8 +223,8 @@
                                     <div class="line h-100"></div>
                                 </div>
                                 <div>
-                                    <h5 class="text-dark">Шаг 2: Отправить необязательный запрос</h5>
-                                    <p class="lead text-muted pb-3">Отправьте нам необязательный запрос и получите всю необходимую информацию.</p>
+                                    <h5 class="text-dark">Шаг 2: Отправить запрос</h5>
+                                    <p class="lead text-muted pb-3">Отправьте нам запрос, который ни к чему вас не обязывает, и получите всю необходимую информацию.</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-1">
@@ -292,7 +292,7 @@
                         <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-2.png" alt="Icon">
                     </div>
                     <h5 class="mb-3">Профессиональная команда</h5>
-                    <p class="mb-0">Наша команда экспертов различных областей обеспечит надежную и быструю реализацию ваших проектов в Дубае</p>
+                    <p class="mb-0">Наша команда экспертов в различных областях обеспечит надежную и быструю реализацию ваших проектов в Дубае</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
@@ -345,7 +345,7 @@
                     </div>
                     <div class="p-4">
                         <a class="d-block h5" href="">Элитная недвижимость</a>
-                        <span>Наша команда помогла международному инвестору в получении визы инвестора в недвижимость и приобретении роскошной недвижимости в Дубае, включая финансирование и открытие счета.</span>
+                        <span>Наша команда помогла международному инвестору в получении визы для инвестиции в недвижимость и приобретении роскошной недвижимости в Дубае, включая финансирование и открытие банковского счета.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
