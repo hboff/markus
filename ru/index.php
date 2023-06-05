@@ -379,67 +379,115 @@
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h1 class="display-5 mb-5">Наши эксперты</h1>
         </div>
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                    <div class="team-content">
-                        <h5>Маркус Майер</h5>
-                        <p class="text-primary">Основатель & CEO</p>
-                        <p ><b>Специализация:</b> Международные банковские отношения</p>
+<div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/markus.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">
+                            <h5>Маркус Майер</h5>
+                            <p class="text-primary">Основатель & CEO</p>
+                            <p ><b>Специализация:</b> международные банковские отношения</p>
+                            <p><b>Языки:</b> Русский, Немецкий, Английский</p>
+                            <ul class="team-social">
+                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Андреас Шлегель</h5>
+                        <p class="text-primary">Основатель</p>
+                        <p><b>Специализация:</b> Недвижимость</p>
+                        <p><b>Языки:</b> Русский, Немецкий</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Доктор Дмитрий Баллиет</h5>
+                        <p class="text-primary">Партнер</p>
+                                                <p><b>Специализация:</b> международное налоговое право</p>
                         <p><b>Языки:</b> Русский, Немецкий, Английский</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul> 
+                       </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Матиас Крюгер</h5>
+                        <p class="text-primary">Партнер</p>
+                        <p><b>Специализация: </b>Маркетинг, Недвижимость</p>
+                        <p><b>Языки: </b>Немецкий, Английский</p>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/andreas.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-                    <div class="team-content">                        
-                    <h5>Андреас Шлегель</h5>
-                    <p class="text-primary">Основатель</p>
-                    <p><b>Специализация:</b> Недвижимость</p>
-                    <p><b>Языки:</b> Русский, Немецкий</p>
-                    <ul class="team-social">
-                        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dimitri.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-<div class="team-content">                        
-<h5>Д-р Дмитрий Баллиет</h5>
-<p class="text-primary">Партнер</p>
-<p><b>Специализация:</b> Международное налоговое право</p>
-<p><b>Языки:</b> Русский, Немецкий, Английский</p>
-<ul class="team-social">
-    <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-    <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-</ul> 
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-<div class="team-item rounded overflow-hidden pb-4">
-    <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/mathias.jpeg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-    <div class="team-content">                        
-    <h5>Матиас Крюгер</h5>
-    <p class="text-primary">Партнер</p>
-    <p><b>Специализация:</b>Недвижимость</p>
-    <p><b>Языки:</b>Немецкий, Английский</p>
-    <ul class="team-social">
-        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-    </ul>
-</div>
-</div>
-</div>
+            <div class="row g-4 my-3">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/daniel.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;   object-position: top;">
+                        <div class="team-content">
+                            <h5>Даниэль Бекфорд</h5>
+                            <p class="text-primary">Партнер</p>
+                            <p ><b>Специализация:</b> Недвижимость</p>
+                            <p><b>Языки:</b> Английский, Немецкий, Французский, Голландский, Турецкий</p>
+                            <ul class="team-social">
+                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/oskar.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Оскар Лозе</h5>
+                        <p class="text-primary">Партнер</p>
+                        <p><b>Специализация:</b> Информатика, Недвижимость</p>
+                        <p><b>Языки:</b> Немецкий, Английский, Норвежский</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/adriana.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover; object-position: top;">
+                        <div class="team-content">                        
+                        <h5>Адриана Мысчор</h5>
+                        <p class="text-primary">Партнер</p>
+                        <p><b>Специализация:</b> Информатика, Недвижимость</p>
+                        <p><b>Языки:</b> Немецкий, Английский, польский</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 </div>
 </div>
 </div>

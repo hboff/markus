@@ -444,6 +444,52 @@
                 </div>
                 </div>
             </div>
+                        <div class="row g-4 my-3">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/daniel.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;   object-position: top;">
+                        <div class="team-content">
+                            <h5>Daniel Beckford</h5>
+                            <p class="text-primary">Partner</p>
+                            <p><b>Specialization:</b> Real Estate</p>
+                            <p><b>Languages:</b> English, German, French, Dutch, Turkish</p>
+                            <ul class="team-social">
+                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/oskar.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
+                        <div class="team-content">                        
+                        <h5>Oskar Lohse</h5>
+                        <p class="text-primary">Partner</p>
+                        <p><b>Specialization:</b> IT, Real Estate</p>
+                        <p><b>Languages:</b> German, English, Norwegian</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/adriana.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover; object-position: top;">
+                        <div class="team-content">                        
+                        <h5>Adriana Myschor</h5>
+                        <p class="text-primary">Partner</p>
+                        <p><b>Specialization:</b>Real Estate</p>
+                        <p><b>Languages:</b> German, English, Polish</p>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 </div>
