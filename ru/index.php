@@ -494,7 +494,7 @@
 
     <!-- Team End -->
 
-<?php include '../kontakt-incl.php';?>
+<?php include '../kontakt-incl-ru.php';?>
 
 <?php include '../footer-ru.php';?>
 
