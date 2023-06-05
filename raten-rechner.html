@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Ratenkreditrechner</h2>
+
+    <p>Darlehensbetrag: <span id="darlehensbetrag-value"></span> €</p>
+    <input id="darlehensbetrag-slider" type="range" min="1000" max="50000" step="100" value="2000"
+        oninput="updateDarlehensbetragSlider(this.value)">
+    <input id="darlehensbetrag-input" type="text" pattern="^\d+(.|,)\d{0,2}\s*€$" min="1000" max="50000"
+        value="2000,00 €" onchange="updateDarlehensbetrag(this.value.replace(' €', ''))">
+
+    <p>Vertragslaufzeit: <span id="laufzeit-value"></span> Monate</p>
+    <select id="laufzeit-dropdown" onchange="updateLaufzeit(this.value)"></select>
+
+    <p>Zinssatz:</p>
+    <input id="zinssatz" type="text" pattern="^\d+(.|,)\d{0,2}\s*%$" value="6,00 %"
+        onchange="updateZinssatz(this.value.replace(' %', ''))">
+
+    <h3>Ergebnis:</h3>
+    <p id="monatlicheRate"></p>
+    <p id="summeZahlungen"></p>
+    <p id="zinsen"></p>
+
+    <script>
+        document.getElementById('darlehensbetrag-value').innerHTML = document.getElementById('darlehensbetrag-slider').value;
+        document.getElementById('laufzeit-value').innerHTML = 12;
+
+        for (let i = 12; i <= 120; i += 12) {
+            let option = document.createElement('option');
+            option.value = i;
+            option.text = i;
+            document.getElementById('laufzeit-dropdown').appendChild(option);
+        }
+
+        function updateDarlehensbetrag(val) {
+            document.getElementById('darlehensbetrag-value').innerHTML = val;
+            document.getElementById('darlehensbetrag-slider').value = Math.round(val);
+            kreditBerechnen();
+        }
+
+        function updateDarlehensbetragSlider(val) {
+            document.getElementById('darlehensbetrag-value').innerHTML = val;
+            document.getElementById('darlehensbetrag-input').value = val + ' €';
+            kreditBerechnen();
+        }
+
+        function updateLaufzeit(val) {
+            document.getElementById('laufzeit-value').innerHTML = val;
+            kreditBerechnen();
+        }
+
+        function updateZinssatz(val) {
+            document.getElementById('zinssatz').value = parseFloat(val) + ' %';
+            kreditBerechnen();
+        }
+
+        function kreditBerechnen() {
+            var P = parseFloat(document.getElementById("darlehensbetrag-input").value.replace(' €', '').replace(',', '.'));
+            var n = document.getElementById("laufzeit-value").innerHTML;
+            var r = parseFloat(document.getElementById("zinssatz").value.replace(' %', '').replace(',', '.')) / 100 / 12;
+
+            var monatlicheRate = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+            var summeZahlungen = monatlicheRate * n;
+            var zinsen = summeZahlungen - P;
+
+            document.getElementById("monatlicheRate").innerHTML = "Monatliche Rate: " + monatlicheRate.toFixed(2) + " €";
+            document.getElementById("summeZahlungen").innerHTML = "Summe der Zahlungen: " + summeZahlungen.toFixed(2) + " €";
+            document.getElementById("zinsen").innerHTML = "Davon Zinsen: " + zinsen.toFixed(2) + " €";
+        }
+
+        window.onload = kreditBerechnen;
+    </script>
+
+</body>
+
+</html>

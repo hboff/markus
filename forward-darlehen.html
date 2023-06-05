@@ -50,13 +50,14 @@
             var sollzinsbindung = parseInt(document.getElementById("sollzinsbindung").value);
             var tilgungssatz = parseFloat(document.getElementById("tilgungssatzInput").value) / 100;
 
-            var monatlicherZins = darlehensbetrag * (4.0 / 100) / 12;
-            var monatlicheTilgung = monatlicherZins / (1 - Math.pow(1 + (4.0 / 100 / 12), -sollzinsbindung * 12));
+            var monatlicherZins = (4.0 / 100) / 12;
+            var monatlicheRate = darlehensbetrag * monatlicherZins / (1 - Math.pow(1 + monatlicherZins, -sollzinsbindung * 12));
             var restschuld = darlehensbetrag;
             var gezahlteZinsen = 0;
             for (var i = 0; i < sollzinsbindung * 12; i++) {
-                gezahlteZinsen += restschuld * (4.0 / 100) / 12;
-                restschuld -= monatlicheTilgung - restschuld * (4.0 / 100) / 12;
+                var monatlicheZinsen = restschuld * monatlicherZins;
+                gezahlteZinsen += monatlicheZinsen;
+                restschuld -= (monatlicheRate - monatlicheZinsen);
                 if (restschuld <= 0) {
                     restschuld = 0;
                     break;
@@ -64,13 +65,13 @@
             }
 
             var getilgterBetrag = darlehensbetrag - restschuld;
-            var gesamtlaufzeit = sollzinsbindung + restschuld / (12 * monatlicheTilgung);
+            var gesamtlaufzeit = sollzinsbindung + restschuld / (12 * monatlicheRate);
 
             var ergebnis = 'Ihr Zinssatz und Ihre Monatsrate:<br/>' +
                 'effektiver Jahreszins p.a.: 4.06%<br/>' +
                 'gebundener Sollzins p.a.: 4.00%<br/>' +
-                'monatliche Rate: ' + monatlicheTilgung.toFixed(2) + '€<br/>' +
-                'anfänglicher Tilgungssatz: ' + (monatlicheTilgung / darlehensbetrag * 12 * 100).toFixed(2) + '%<br/><br/>' +
+                'monatliche Rate: ' + monatlicheRate.toFixed(2) + '€<br/>' +
+                'anfänglicher Tilgungssatz: ' + ((monatlicheRate - darlehensbetrag * monatlicherZins) / darlehensbetrag * 12 * 100).toFixed(2) + '%<br/><br/>' +
                 'Ihre Eckdaten nach der Zinsbindung von ' + sollzinsbindung + ' Jahren:<br/>' +
                 'Restschuld: ' + restschuld.toFixed(2) + '€<br/>' +
                 'getilgter Betrag: ' + getilgterBetrag.toFixed(2) + '€<br/>' +
@@ -82,13 +83,14 @@
         function berechneJahreswerte() {
             var jahr = parseInt(document.getElementById("jahrInput").value);
             var darlehensbetrag = parseFloat(document.getElementById("darlehensbetragInput").value);
-            var monatlicherZins = darlehensbetrag * (4.0 / 100) / 12;
-            var monatlicheTilgung = monatlicherZins / (1 - Math.pow(1 + (4.0 / 100 / 12), -10 * 12));
+            var monatlicherZins = (4.0 / 100) / 12;
+            var monatlicheRate = darlehensbetrag * monatlicherZins / (1 - Math.pow(1 + monatlicherZins, -10 * 12));
             var restschuld = darlehensbetrag;
             var gezahlteZinsen = 0;
             for (var i = 0; i < jahr * 12; i++) {
-                gezahlteZinsen += restschuld * (4.0 / 100) / 12;
-                restschuld -= monatlicheTilgung - restschuld * (4.0 / 100) / 12;
+                var monatlicheZinsen = restschuld * monatlicherZins;
+                gezahlteZinsen += monatlicheZinsen;
+                restschuld -= (monatlicheRate - monatlicheZinsen);
                 if (restschuld <= 0) {
                     restschuld = 0;
                     break;
