@@ -29,8 +29,7 @@
                             <p ><b>Fachgebiet:</b> internationale Bankenbeziehung</p>
                             <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
                             <ul class="team-social">
-                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="btn btn-square" href="https://ch.linkedin.com/in/markus-maier-5b052633"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -44,7 +43,6 @@
                         <p><b>Fachgebiet:</b> Immobilien</p>
                         <p><b>Sprachen:</b> Russisch, Deutsch</p>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         </div>
@@ -59,8 +57,7 @@
                         <p><b>Fachgebiet:</b> internationales Steuerrecht</p>
                         <p><b>Sprachen:</b> Russisch, Deutsch, Englisch</p>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="btn btn-square" href="https://www.linkedin.com/in/dr-dmitrij-balliet-775692ab"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul> 
                        </div>
                     </div>
@@ -74,7 +71,6 @@
                         <p><b>Fachgebiet: </b>Marketing, Immobilien</p>
                         <p><b>Sprachen: </b>Deutsch, Englisch</p>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -91,7 +87,6 @@
                             <p ><b>Fachgebiet:</b> Immobilien</p>
                             <p><b>Sprachen:</b> Englisch, Deutsch, Französisch, Niederländisch, Türkisch</p>
                             <ul class="team-social">
-                                <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                                 <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
@@ -120,7 +115,6 @@
                         <p><b>Fachgebiet:</b> Immobilien</p>
                         <p><b>Sprachen:</b> Deutsch, Englisch, Polnisch</p>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
                             <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         </div>
