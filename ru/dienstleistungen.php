@@ -23,7 +23,7 @@
         <div class="col-lg-12">
             <div class=" py-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-5 mb-5">Ваш партнер в Дубае</h1>
+            <h1 class="display-5 mb-5">аш партнер в Дубае</h1>
             <p class="fs-5 fw-medium text-primary">Наши услуги</p>
 
         </div>
@@ -34,7 +34,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-5.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Разрешение на проживание / Виза</h4>
+                        <h5 class="mb-3">Вид на жительство / оформление виз</h4>
                             <p class="mb-0">Мы поможем вам подать заявление на подходящую визу в Дубае, чтобы обеспечить быстрое и беспроблемное получение визы.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
@@ -49,7 +49,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Основание компании</h4>
+                            <h5 class="mb-3">Регистрация компаний </h4>
                             <p class="mb-0">Наша команда поможет вам создать вашу компанию в Дубае, сопровождая вас на всем пути от выбора правильной формы собственности до регистрации и планирования бизнеса.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
@@ -64,7 +64,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-7.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Открытие счета</h5>
+                            <h5 class="mb-3">Открытие счета</h5>
                             <p class="mb-0">Мы предлагаем индивидуальные решения для открытия банковских счетов в Дубае и сопровождаем вас на всем пути, чтобы удовлетворить ваши индивидуальные потребности.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
@@ -94,7 +94,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-9.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Подбор персонала</h5>
+                         <h5 class="mb-3">Подбор персонала</h5>
                             <p class="mb-0">Наша команда экспертов может помочь вам в поиске, выборе и найме квалифицированного персонала для вашей компании в Дубае, чтобы создать правильный резерв талантов для вашей компании.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
@@ -108,7 +108,7 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                             <img class="img-fluid" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/icon/icon-10.png" alt="Icon">
                         </div>
-                        <h5 class="mb-3">Услуги по переезду</h5>
+                            <h5 class="mb-3">Услуги по переезду</h5>
                             <p class="mb-0">Мы поможем вам организовать ваш переезд в Дубай, включая поиск подходящего жилья, организацию транспорта и логистики, а также регистрацию в местных органах власти и учреждениях.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
