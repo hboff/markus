@@ -106,8 +106,7 @@
                         <p><b>Fachgebiet:</b> Informatik, Immobilien</p>
                         <p><b>Sprachen:</b> Deutsch, Englisch, Norwegisch</p>
                         <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="btn btn-square" href="https://de.linkedin.com/in/oskar-lohse-82bb14196"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         </div>
                     </div>
