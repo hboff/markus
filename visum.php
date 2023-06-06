@@ -6,7 +6,7 @@
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
         <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/visa-img.jpg" alt="Dubai"
-            style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
+            style="float:left;width:100vw;height:70vh;object-fit:cover; object-position: top;">
     </div>
     <!-- Carousel End -->
 
