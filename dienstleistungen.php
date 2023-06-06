@@ -12,7 +12,7 @@
 
     <!-- Carousel Start -->
     <div>
-        <img src="img/kontoeroeffnung.jpg" alt="Dubai"
+        <img src="img/dienstleistungen.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
     <!-- Carousel End -->
