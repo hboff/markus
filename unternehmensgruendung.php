@@ -5,7 +5,7 @@
 
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
-        <img src="img/kontoeroeffnung.jpg" alt="Dubai"
+        <img src="img/unternehmensgruendung-img.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
     <!-- Carousel End -->
