@@ -16,7 +16,6 @@
                     <h4 class="text-white mb-4">Links</h4>
                     <a class="btn btn-link no-hover" href="contact.php">Kontakt</a>
                     <a class="btn btn-link no-hover" href="dienstleistungen.php">Unsere Dienstleistungen</a>
-                    <a class="btn btn-link no-hover" href="datenschutzerklaerung.php">Datenschutzerklärung</a>
                     <a class="btn btn-link no-hover" href="impressum.php">Impressum</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
