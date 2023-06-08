@@ -446,7 +446,7 @@
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/daniel.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;   object-position: top;">
                         <div class="team-content">
-                            <h5>Даниэль Бекфорд</h5>
+                            <h5>Даниэль Вильям</h5>
                             <p class="text-primary">Партнер</p>
                             <p ><b>Специализация:</b> Недвижимость</p>
                             <p><b>Языки:</b> Английский, Немецкий, Французский, Голландский, Турецкий</p>

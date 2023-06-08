@@ -82,7 +82,7 @@
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/daniel.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover; object-position: top;">
                         <div class="team-content">
-                            <h5>Daniel Beckford</h5>
+                            <h5>Daniel William</h5>
                             <p class="text-primary">Partner</p>
                             <p ><b>Fachgebiet:</b> Immobilien</p>
                             <p><b>Sprachen:</b> Englisch, Deutsch, Französisch, Niederländisch, Türkisch</p>

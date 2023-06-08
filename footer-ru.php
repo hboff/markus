@@ -16,7 +16,6 @@
                 <h4 class="text-white mb-4">Ссылки</h4>
                 <a class="btn btn-link no-hover" href="contact.php">Контакт</a>
                 <a class="btn btn-link no-hover" href="dienstleistungen.php">Наши услуги</a>
-                <a class="btn btn-link no-hover" href="datenschutzerklaerung.php">Политика конфиденциальности</a>
                 <a class="btn btn-link no-hover" href="impressum.php">О нас</a>
             </div>
             <div class="col-lg-3 col-md-6">
