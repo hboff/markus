@@ -18,9 +18,16 @@
             <div class="col-lg-10">
                 <div class="px-5 py-5">
                     <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                        <h1 class="display-5 mb-5">Impressum</h1>
+                        <h1 class="display-5 mb-5">Импрессум</h1>
                     </div>
 
+<p>Pantheon - Elite L.L.C-FZ</p>
+<p>Бизнес-центр 1, этаж М,</p>
+<p>Отель Meydan, Над Аль-Шеба, Дубай, ОАЭ</p>
+<p>Телефон: (+971) 50 2564749</p>
+<p>Электронная почта: info@pantheon-elite.ae</p>
+<p>Интернет: www.pantheon-elite.ae</p>
+<p>Маркус Майер, генеральный директор и главный исполнительный директор (CEO)</p>
                     <div class="col-md-8 mx-auto">
                         <p></p>
                     </div>

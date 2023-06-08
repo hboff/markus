@@ -18,9 +18,16 @@
             <div class="col-lg-10">
                 <div class="px-5 py-5">
                     <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                        <h1 class="display-5 mb-5">Impressum</h1>
+                        <h1 class="display-5 mb-5">Imprint</h1>
                     </div>
-
+                            <p>Pantheon - Elite L.L.C-FZ</p>
+                            <p>Business Center 1, M Floor,</p>
+                            <p>The Meydan Hotel, Nad Al Sheba, Dubai, U.A.E</p>
+                            <p>Fon: (+971) 50 2564749</p>
+                            <p>E‑Mail: info@pantheon-elite.ae</p>
+                            <p>Internet: www.pantheon-elite.ae</p>
+                            <p>Authorized representatives:</p>
+                            <p>Markus Maier, General Manager und Chief Executive Officer (CEO)</p>
                     <div class="col-md-8 mx-auto">
                         <p></p>
                     </div>
