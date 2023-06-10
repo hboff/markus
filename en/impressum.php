@@ -37,9 +37,9 @@
     </div>
     <!-- Team End -->
 
-    <?php include '../kontakt-incl-ru.php';?>
+    <?php include '../kontakt-incl-en.php';?>
 
-    <?php include '../footer-ru.php';?>
+    <?php include '../footer-en.php';?>
 
 
     <!-- JavaScript Libraries -->

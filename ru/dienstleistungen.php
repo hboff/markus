@@ -12,7 +12,7 @@
     
     <!-- Carousel Start -->
     <div class="fullscreen position-relative">
-        <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/kontoeroeffnung.jpg" alt="Dubai"
+        <img src="<?php echo 'https://' . $_SERVER['HTTP_HOST'];?>/img/dienstleistungen.jpg" alt="Dubai"
             style="float:left;width:100vw;height:70vh;object-fit:cover;   object-position: center">
     </div>
     <!-- Carousel End -->
