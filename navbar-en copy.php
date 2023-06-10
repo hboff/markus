@@ -22,6 +22,16 @@
             </ul>
             <ul class="navbar-nav d-flex flex-row">
                 <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="https://t.me/Baucampus_bot">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
                     <a class="nav-link" href="https://pantheon-elite.ae/">
                         &#x1F1E9;&#x1F1EA; 
                     </a>
